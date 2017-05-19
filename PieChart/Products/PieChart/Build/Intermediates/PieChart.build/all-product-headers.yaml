@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Products/Debug-iphonesimulator/PieChart.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PieChart-Swift.h",
+          'external-contents': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Products/Debug-iphonesimulator/PieChart.framework/Headers/PieChart-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PieChart.h",
+          'external-contents': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/PieChart.h"
+        },
+        {
+          'type': 'file',
+          'name': "WedgeModel.h",
+          'external-contents': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/WedgeModel.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Products/Debug-iphonesimulator/PieChart.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Intermediates/PieChart.build/Debug-iphonesimulator/PieChart.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

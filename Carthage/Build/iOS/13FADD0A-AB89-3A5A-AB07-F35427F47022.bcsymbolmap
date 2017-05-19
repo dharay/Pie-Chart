@@ -1,0 +1,3284 @@
+BCSymbolMap Version: 2.0
++[CPTGraphHostingView layerClass]
+-[CPTGraphHostingView commonInit]
+-[CPTGraphHostingView initWithFrame:]
+-[CPTGraphHostingView dealloc]
+-[CPTGraphHostingView encodeWithCoder:]
+-[CPTGraphHostingView initWithCoder:]
++[CPTGraphHostingView supportsSecureCoding]
+-[CPTGraphHostingView touchesBegan:withEvent:]
+-[CPTGraphHostingView touchesMoved:withEvent:]
+-[CPTGraphHostingView touchesEnded:withEvent:]
+-[CPTGraphHostingView touchesCancelled:withEvent:]
+-[CPTGraphHostingView setAllowPinchScaling:]
+-[CPTGraphHostingView handlePinchGesture:]
+-[CPTGraphHostingView drawRect:]
+-[CPTGraphHostingView graphNeedsRedraw:]
+-[CPTGraphHostingView setHostedGraph:]
+-[CPTGraphHostingView setCollapsesLayers:]
+-[CPTGraphHostingView setFrame:]
+-[CPTGraphHostingView setBounds:]
+-[CPTGraphHostingView hostedGraph]
+-[CPTGraphHostingView collapsesLayers]
+-[CPTGraphHostingView allowPinchScaling]
+-[CPTGraphHostingView pinchGestureRecognizer]
+-[CPTGraphHostingView setPinchGestureRecognizer:]
+-[CPTGraphHostingView .cxx_destruct]
+_OBJC_IVAR_$_CPTGraphHostingView.collapsesLayers
+_OBJC_IVAR_$_CPTGraphHostingView.allowPinchScaling
+_OBJC_IVAR_$_CPTGraphHostingView.hostedGraph
+_OBJC_IVAR_$_CPTGraphHostingView.pinchGestureRecognizer
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+Apple LLVM version 8.1.0 (clang-802.0.38)
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTGraphHostingView.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTGraphHostingView.h
+-[CPTLayerAnnotation initWithAnchorLayer:]
+-[CPTLayerAnnotation init]
+-[CPTLayerAnnotation dealloc]
+-[CPTLayerAnnotation encodeWithCoder:]
+-[CPTLayerAnnotation initWithCoder:]
+-[CPTLayerAnnotation positionContentLayer]
++[CPTLayerAnnotation supportsSecureCoding]
+-[CPTLayerAnnotation setConstraints]
+-[CPTLayerAnnotation setRectAnchor:]
+-[CPTLayerAnnotation anchorLayer]
+-[CPTLayerAnnotation rectAnchor]
+-[CPTLayerAnnotation xConstraints]
+-[CPTLayerAnnotation setXConstraints:]
+-[CPTLayerAnnotation yConstraints]
+-[CPTLayerAnnotation setYConstraints:]
+-[CPTLayerAnnotation .cxx_destruct]
+_OBJC_IVAR_$_CPTLayerAnnotation.anchorLayer
+_OBJC_IVAR_$_CPTLayerAnnotation.rectAnchor
+_OBJC_IVAR_$_CPTLayerAnnotation.xConstraints
+_OBJC_IVAR_$_CPTLayerAnnotation.yConstraints
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLayerAnnotation.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLayerAnnotation.h
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[CPTLayer initWithFrame:]
+-[CPTLayer init]
+-[CPTLayer initWithLayer:]
+-[CPTLayer dealloc]
+-[CPTLayer encodeWithCoder:]
+-[CPTLayer initWithCoder:]
++[CPTLayer supportsSecureCoding]
+-[CPTLayer actionForKey:]
+-[CPTLayer display]
+-[CPTLayer drawInContext:]
+-[CPTLayer renderAsVectorInContext:]
+-[CPTLayer recursivelyRenderInContext:]
+-[CPTLayer applyTransform:toContext:]
+-[CPTLayer layoutAndRenderInContext:]
+-[CPTLayer dataForPDFRepresentationOfLayer]
+-[CPTLayer pointingDeviceDownEvent:atPoint:]
+-[CPTLayer pointingDeviceUpEvent:atPoint:]
+-[CPTLayer pointingDeviceDraggedEvent:atPoint:]
+-[CPTLayer pointingDeviceCancelledEvent:]
+-[CPTLayer pixelAlign]
+-[CPTLayer setPaddingLeft:]
+-[CPTLayer setPaddingRight:]
+-[CPTLayer setPaddingTop:]
+-[CPTLayer setPaddingBottom:]
+-[CPTLayer shadowMargin]
+-[CPTLayer layoutSublayers]
+-[CPTLayer sublayersExcludedFromAutomaticLayout]
+-[CPTLayer sublayerMarginLeft:top:right:bottom:]
+-[CPTLayer setSublayers:]
+-[CPTLayer addSublayer:]
+-[CPTLayer insertSublayer:atIndex:]
+-[CPTLayer insertSublayer:below:]
+-[CPTLayer insertSublayer:above:]
+-[CPTLayer replaceSublayer:with:]
+-[CPTLayer maskingPath]
+-[CPTLayer sublayerMaskingPath]
+-[CPTLayer applySublayerMaskToContext:forSublayer:withOffset:]
+-[CPTLayer applyMaskToContext:]
+-[CPTLayer setNeedsLayout]
+-[CPTLayer setNeedsDisplay]
+-[CPTLayer setPosition:]
+-[CPTLayer setHidden:]
+-[CPTLayer setContentsScale:]
+-[CPTLayer contentsScale]
+-[CPTLayer setShadow:]
+-[CPTLayer setOuterBorderPath:]
+-[CPTLayer setInnerBorderPath:]
+-[CPTLayer bounds]
+-[CPTLayer setBounds:]
+-[CPTLayer anchorPoint]
+-[CPTLayer setAnchorPoint:]
+-[CPTLayer setCornerRadius:]
+-[CPTLayer description]
+-[CPTLayer logLayers]
+-[CPTLayer subLayersAtIndex:]
+-[CPTLayer debugQuickLookObject]
+-[CPTLayer graph]
+-[CPTLayer setGraph:]
+-[CPTLayer paddingLeft]
+-[CPTLayer paddingTop]
+-[CPTLayer paddingRight]
+-[CPTLayer paddingBottom]
+-[CPTLayer masksToBorder]
+-[CPTLayer setMasksToBorder:]
+-[CPTLayer shadow]
+-[CPTLayer outerBorderPath]
+-[CPTLayer innerBorderPath]
+-[CPTLayer useFastRendering]
+-[CPTLayer setUseFastRendering:]
+-[CPTLayer identifier]
+-[CPTLayer setIdentifier:]
+-[CPTLayer isRenderingRecursively]
+-[CPTLayer setRenderingRecursively:]
+-[CPTLayer .cxx_destruct]
+_OBJC_IVAR_$_CPTLayer.paddingLeft
+_OBJC_IVAR_$_CPTLayer.paddingTop
+_OBJC_IVAR_$_CPTLayer.paddingRight
+_OBJC_IVAR_$_CPTLayer.paddingBottom
+_OBJC_IVAR_$_CPTLayer.masksToBorder
+_OBJC_IVAR_$_CPTLayer.shadow
+_OBJC_IVAR_$_CPTLayer.renderingRecursively
+_OBJC_IVAR_$_CPTLayer.useFastRendering
+_OBJC_IVAR_$_CPTLayer.graph
+_OBJC_IVAR_$_CPTLayer.outerBorderPath
+_OBJC_IVAR_$_CPTLayer.innerBorderPath
+_OBJC_IVAR_$_CPTLayer.identifier
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_CPTResponder
+l_OBJC_LABEL_PROTOCOL_$_CPTResponder
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLayer.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLayer.h
+__tg_lrint
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include/tgmath.h
+__tg_ceil
+__tg_round
+CGSizeMake
+__CGSizeEqualToSize
+CGRectMake
+-[CPTTimeFormatter init]
+-[CPTTimeFormatter initWithDateFormatter:]
+-[CPTTimeFormatter encodeWithCoder:]
+-[CPTTimeFormatter initWithCoder:]
+-[CPTTimeFormatter copyWithZone:]
+-[CPTTimeFormatter stringForObjectValue:]
+-[CPTTimeFormatter dateFormatter]
+-[CPTTimeFormatter setDateFormatter:]
+-[CPTTimeFormatter referenceDate]
+-[CPTTimeFormatter setReferenceDate:]
+-[CPTTimeFormatter .cxx_destruct]
+_OBJC_IVAR_$_CPTTimeFormatter.dateFormatter
+_OBJC_IVAR_$_CPTTimeFormatter.referenceDate
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTimeFormatter.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTimeFormatter.h
++[CPTColor clearColor]
+___22+[CPTColor clearColor]_block_invoke
++[CPTColor whiteColor]
+___22+[CPTColor whiteColor]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CPTColor lightGrayColor]
+___26+[CPTColor lightGrayColor]_block_invoke
+___copy_helper_block_.11
+___destroy_helper_block_.12
++[CPTColor grayColor]
+___21+[CPTColor grayColor]_block_invoke
+___copy_helper_block_.15
+___destroy_helper_block_.16
++[CPTColor darkGrayColor]
+___25+[CPTColor darkGrayColor]_block_invoke
+___copy_helper_block_.19
+___destroy_helper_block_.20
++[CPTColor blackColor]
+___22+[CPTColor blackColor]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
++[CPTColor redColor]
+___20+[CPTColor redColor]_block_invoke
++[CPTColor greenColor]
+___22+[CPTColor greenColor]_block_invoke
++[CPTColor blueColor]
+___21+[CPTColor blueColor]_block_invoke
++[CPTColor cyanColor]
+___21+[CPTColor cyanColor]_block_invoke
++[CPTColor yellowColor]
+___23+[CPTColor yellowColor]_block_invoke
++[CPTColor magentaColor]
++[CPTColor orangeColor]
+___23+[CPTColor orangeColor]_block_invoke
++[CPTColor purpleColor]
+___23+[CPTColor purpleColor]_block_invoke
++[CPTColor brownColor]
+___22+[CPTColor brownColor]_block_invoke
++[CPTColor colorWithCGColor:]
++[CPTColor colorWithComponentRed:green:blue:alpha:]
++[CPTColor colorWithGenericGray:]
+-[CPTColor initWithCGColor:]
+-[CPTColor initWithComponentRed:green:blue:alpha:]
+-[CPTColor init]
+-[CPTColor dealloc]
+-[CPTColor colorWithAlphaComponent:]
+-[CPTColor isOpaque]
+-[CPTColor encodeWithCoder:]
+-[CPTColor initWithCoder:]
++[CPTColor supportsSecureCoding]
+-[CPTColor copyWithZone:]
+-[CPTColor isEqual:]
+-[CPTColor hash]
+-[CPTColor debugQuickLookObject]
+-[CPTColor cgColor]
+_clearColor.color
+_clearColor.onceToken
+___block_descriptor_tmp
+___block_literal_global
+_whiteColor.color
+_whiteColor.onceToken
+___block_descriptor_tmp.10
+_lightGrayColor.color
+_lightGrayColor.onceToken
+___block_descriptor_tmp.14
+_grayColor.color
+_grayColor.onceToken
+___block_descriptor_tmp.18
+_darkGrayColor.color
+_darkGrayColor.onceToken
+___block_descriptor_tmp.22
+_blackColor.color
+_blackColor.onceToken
+___block_descriptor_tmp.26
+_redColor.color
+_redColor.onceToken
+___block_descriptor_tmp.29
+___block_literal_global.30
+_greenColor.color
+_greenColor.onceToken
+___block_descriptor_tmp.31
+___block_literal_global.32
+_blueColor.color
+_blueColor.onceToken
+___block_descriptor_tmp.33
+___block_literal_global.34
+_cyanColor.color
+_cyanColor.onceToken
+___block_descriptor_tmp.35
+___block_literal_global.36
+_yellowColor.color
+_yellowColor.onceToken
+___block_descriptor_tmp.37
+___block_literal_global.38
+_magentaColor.color
+_orangeColor.color
+_orangeColor.onceToken
+___block_descriptor_tmp.39
+___block_literal_global.40
+_purpleColor.color
+_purpleColor.onceToken
+___block_descriptor_tmp.41
+___block_literal_global.42
+_brownColor.color
+_brownColor.onceToken
+___block_descriptor_tmp.43
+___block_literal_global.44
+_OBJC_IVAR_$_CPTColor.cgColor
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTColor.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTColor.h
+__22+[CPTColor brownColor]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+__23+[CPTColor purpleColor]_block_invoke
+__23+[CPTColor orangeColor]_block_invoke
+__23+[CPTColor yellowColor]_block_invoke
+__21+[CPTColor cyanColor]_block_invoke
+__21+[CPTColor blueColor]_block_invoke
+__22+[CPTColor greenColor]_block_invoke
+__20+[CPTColor redColor]_block_invoke
+__destroy_helper_block_
+__copy_helper_block_
+__22+[CPTColor blackColor]_block_invoke
+__25+[CPTColor darkGrayColor]_block_invoke
+__21+[CPTColor grayColor]_block_invoke
+__26+[CPTColor lightGrayColor]_block_invoke
+__22+[CPTColor whiteColor]_block_invoke
+__22+[CPTColor clearColor]_block_invoke
+-[NSCoder(CPTExtensions) encodeCGFloat:forKey:]
+-[NSCoder(CPTExtensions) encodeCPTPoint:forKey:]
+-[NSCoder(CPTExtensions) encodeCPTSize:forKey:]
+-[NSCoder(CPTExtensions) encodeCPTRect:forKey:]
+-[NSCoder(CPTExtensions) encodeCGColorSpace:forKey:]
+-[NSCoder(CPTExtensions) encodeCGPath:forKey:]
+-[NSCoder(CPTExtensions) encodeCGImage:forKey:]
+-[NSCoder(CPTExtensions) encodeDecimal:forKey:]
+-[NSCoder(CPTExtensions) decodeCGFloatForKey:]
+-[NSCoder(CPTExtensions) decodeCPTPointForKey:]
+-[NSCoder(CPTExtensions) decodeCPTSizeForKey:]
+-[NSCoder(CPTExtensions) decodeCPTRectForKey:]
+-[NSCoder(CPTExtensions) newCGColorSpaceDecodeForKey:]
+-[NSCoder(CPTExtensions) newCGPathDecodeForKey:]
+-[NSCoder(CPTExtensions) newCGImageDecodeForKey:]
+-[NSCoder(CPTExtensions) decodeDecimalForKey:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/NSCoderExtensions.m
+CPTPathApplierFunc
+-[CPTMutableNumericData mutableSamplePointer:]
+-[CPTMutableNumericData mutableSamplePointerAtIndex:]
+-[CPTMutableNumericData mutableBytes]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutableNumericData.m
+-[CPTNumericData(TypeConversion) dataByConvertingToType:sampleBytes:byteOrder:]
+-[CPTNumericData(TypeConversion) dataByConvertingToDataType:]
+-[CPTNumericData(TypeConversion) convertData:dataType:toData:dataType:]
+-[CPTNumericData(TypeConversion) swapByteOrderForData:sampleSize:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTNumericData+TypeConversion.m
+CFSwapInt64
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+_OSSwapInt64
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/libkern/arm/OSByteOrder.h
+CFSwapInt32
+_OSSwapInt32
+CFSwapInt16
+-[CPTTheme init]
+-[CPTTheme encodeWithCoder:]
+-[CPTTheme initWithCoder:]
++[CPTTheme supportsSecureCoding]
++[CPTTheme themeClasses]
++[CPTTheme themeNamed:]
++[CPTTheme registerTheme:]
++[CPTTheme name]
+-[CPTTheme setGraphClass:]
+-[CPTTheme applyThemeToGraph:]
+-[CPTTheme graphClass]
+-[CPTTheme .cxx_destruct]
+-[CPTTheme(AbstractMethods) newGraph]
+-[CPTTheme(AbstractMethods) applyThemeToBackground:]
+-[CPTTheme(AbstractMethods) applyThemeToPlotArea:]
+-[CPTTheme(AbstractMethods) applyThemeToAxisSet:]
+_themes
+_OBJC_IVAR_$_CPTTheme.graphClass
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTheme.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTheme.h
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTDefinitions.m
+-[_CPTFillImage initWithImage:]
+-[_CPTFillImage fillRect:inContext:]
+-[_CPTFillImage fillPathInContext:]
+-[_CPTFillImage isOpaque]
+-[_CPTFillImage copyWithZone:]
+-[_CPTFillImage classForCoder]
+-[_CPTFillImage encodeWithCoder:]
+-[_CPTFillImage initWithCoder:]
++[_CPTFillImage supportsSecureCoding]
+-[_CPTFillImage fillImage]
+-[_CPTFillImage setFillImage:]
+-[_CPTFillImage .cxx_destruct]
+_OBJC_IVAR_$__CPTFillImage.fillImage
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTFillImage.m
+-[CPTPlotSpaceAnnotation initWithPlotSpace:anchorPlotPoint:]
+-[CPTPlotSpaceAnnotation init]
+-[CPTPlotSpaceAnnotation dealloc]
+-[CPTPlotSpaceAnnotation encodeWithCoder:]
+-[CPTPlotSpaceAnnotation initWithCoder:]
++[CPTPlotSpaceAnnotation supportsSecureCoding]
+-[CPTPlotSpaceAnnotation setContentNeedsLayout]
+-[CPTPlotSpaceAnnotation positionContentLayer]
+-[CPTPlotSpaceAnnotation setAnchorPlotPoint:]
+-[CPTPlotSpaceAnnotation setDecimalAnchor:]
+-[CPTPlotSpaceAnnotation anchorPlotPoint]
+-[CPTPlotSpaceAnnotation plotSpace]
+-[CPTPlotSpaceAnnotation decimalAnchor]
+-[CPTPlotSpaceAnnotation anchorCount]
+-[CPTPlotSpaceAnnotation setAnchorCount:]
+-[CPTPlotSpaceAnnotation .cxx_destruct]
+_OBJC_IVAR_$_CPTPlotSpaceAnnotation.plotSpace
+_OBJC_IVAR_$_CPTPlotSpaceAnnotation.decimalAnchor
+_OBJC_IVAR_$_CPTPlotSpaceAnnotation.anchorPlotPoint
+_OBJC_IVAR_$_CPTPlotSpaceAnnotation.anchorCount
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSpaceAnnotation.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSpaceAnnotation.h
+-[CPTXYAxis initWithFrame:]
+-[CPTXYAxis initWithLayer:]
+-[CPTXYAxis encodeWithCoder:]
+-[CPTXYAxis initWithCoder:]
++[CPTXYAxis supportsSecureCoding]
+-[CPTXYAxis orthogonalCoordinateViewLowerBound:upperBound:]
+-[CPTXYAxis viewPointForOrthogonalCoordinate:axisCoordinate:]
+-[CPTXYAxis viewPointForCoordinateValue:]
+-[CPTXYAxis drawTicksInContext:atLocations:withLength:inRange:isMajor:]
+-[CPTXYAxis renderAsVectorInContext:]
+-[CPTXYAxis drawGridLinesInContext:isMajor:]
+-[CPTXYAxis initialBandIndexForSortedLocations:inRange:]
+-[CPTXYAxis drawBackgroundBandsInContext:]
+-[CPTXYAxis drawBackgroundLimitsInContext:]
+-[CPTXYAxis description]
+-[CPTXYAxis defaultTitleLocation]
+-[CPTXYAxis setAxisConstraints:]
+-[CPTXYAxis setOrthogonalPosition:]
+-[CPTXYAxis setCoordinate:]
+-[CPTXYAxis orthogonalPosition]
+-[CPTXYAxis axisConstraints]
+-[CPTXYAxis .cxx_destruct]
+_OBJC_IVAR_$_CPTXYAxis.orthogonalPosition
+_OBJC_IVAR_$_CPTXYAxis.axisConstraints
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYAxis.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYAxis.h
+__tg_pow
+__tg_log10
+__inline_isnanf
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/math.h
++[CPTBarPlot tubularBarPlotWithColor:horizontalBars:]
+-[CPTBarPlot initWithFrame:]
+-[CPTBarPlot initWithLayer:]
+-[CPTBarPlot encodeWithCoder:]
+-[CPTBarPlot initWithCoder:]
++[CPTBarPlot supportsSecureCoding]
+-[CPTBarPlot reloadDataInIndexRange:]
+-[CPTBarPlot reloadPlotDataInIndexRange:]
+-[CPTBarPlot reloadBarFills]
+-[CPTBarPlot reloadBarFillsInIndexRange:]
+-[CPTBarPlot reloadBarLineStyles]
+-[CPTBarPlot reloadBarLineStylesInIndexRange:]
+-[CPTBarPlot lengthInView:]
+-[CPTBarPlot doubleLengthInPlotCoordinates:]
+-[CPTBarPlot lengthInPlotCoordinates:]
+-[CPTBarPlot plotRangeForCoordinate:]
+-[CPTBarPlot plotRangeEnclosingField:]
+-[CPTBarPlot plotRangeEnclosingBars]
+-[CPTBarPlot renderAsVectorInContext:]
+-[CPTBarPlot barAtRecordIndex:basePoint:tipPoint:]
+-[CPTBarPlot newBarPathWithContext:recordIndex:]
+-[CPTBarPlot newBarPathWithContext:basePoint:tipPoint:]
+-[CPTBarPlot barIsVisibleWithBasePoint:]
+-[CPTBarPlot barFillForIndex:]
+-[CPTBarPlot barLineStyleForIndex:]
+-[CPTBarPlot drawBarInContext:recordIndex:]
+-[CPTBarPlot drawSwatchForLegend:atIndex:inRect:inContext:]
++[CPTBarPlot needsDisplayForKey:]
+___33+[CPTBarPlot needsDisplayForKey:]_block_invoke
+-[CPTBarPlot positionLabelAnnotation:forIndex:]
+-[CPTBarPlot numberOfLegendEntries]
+-[CPTBarPlot titleForLegendEntryAtIndex:]
+-[CPTBarPlot attributedTitleForLegendEntryAtIndex:]
+-[CPTBarPlot dataIndexFromInteractionPoint:]
+-[CPTBarPlot pointingDeviceDownEvent:atPoint:]
+-[CPTBarPlot pointingDeviceUpEvent:atPoint:]
+-[CPTBarPlot barTips]
+-[CPTBarPlot setBarTips:]
+-[CPTBarPlot barBases]
+-[CPTBarPlot setBarBases:]
+-[CPTBarPlot barLocations]
+-[CPTBarPlot setBarLocations:]
+-[CPTBarPlot barFills]
+-[CPTBarPlot setBarFills:]
+-[CPTBarPlot barLineStyles]
+-[CPTBarPlot setBarLineStyles:]
+-[CPTBarPlot setLineStyle:]
+-[CPTBarPlot setFill:]
+-[CPTBarPlot setBarWidth:]
+-[CPTBarPlot setBarOffset:]
+-[CPTBarPlot setBarCornerRadius:]
+-[CPTBarPlot setBarBaseCornerRadius:]
+-[CPTBarPlot setBaseValue:]
+-[CPTBarPlot setBarBasesVary:]
+-[CPTBarPlot setBarsAreHorizontal:]
+-[CPTBarPlot numberOfFields]
+-[CPTBarPlot fieldIdentifiers]
+-[CPTBarPlot fieldIdentifiersForCoordinate:]
+-[CPTBarPlot coordinateForFieldIdentifier:]
+-[CPTBarPlot barCornerRadius]
+-[CPTBarPlot barBaseCornerRadius]
+-[CPTBarPlot barOffset]
+-[CPTBarPlot barWidthsAreInViewCoordinates]
+-[CPTBarPlot setBarWidthsAreInViewCoordinates:]
+-[CPTBarPlot barWidth]
+-[CPTBarPlot lineStyle]
+-[CPTBarPlot fill]
+-[CPTBarPlot barsAreHorizontal]
+-[CPTBarPlot baseValue]
+-[CPTBarPlot barBasesVary]
+-[CPTBarPlot plotRange]
+-[CPTBarPlot setPlotRange:]
+-[CPTBarPlot pointingDeviceDownIndex]
+-[CPTBarPlot setPointingDeviceDownIndex:]
+-[CPTBarPlot .cxx_destruct]
+_OBJC_IVAR_$_CPTBarPlot.lineStyle
+_OBJC_IVAR_$_CPTBarPlot.fill
+_OBJC_IVAR_$_CPTBarPlot.barWidth
+_OBJC_IVAR_$_CPTBarPlot.barWidthsAreInViewCoordinates
+_OBJC_IVAR_$_CPTBarPlot.barOffset
+_OBJC_IVAR_$_CPTBarPlot.barCornerRadius
+_OBJC_IVAR_$_CPTBarPlot.barBaseCornerRadius
+_OBJC_IVAR_$_CPTBarPlot.baseValue
+_OBJC_IVAR_$_CPTBarPlot.barsAreHorizontal
+_OBJC_IVAR_$_CPTBarPlot.barBasesVary
+_OBJC_IVAR_$_CPTBarPlot.plotRange
+_OBJC_IVAR_$_CPTBarPlot.pointingDeviceDownIndex
+_needsDisplayForKey:.keys
+_needsDisplayForKey:.onceToken
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTBarPlot.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTBarPlot.h
+__inline_isnand
+__33+[CPTBarPlot needsDisplayForKey:]_block_invoke
+NSDecimalIsNotANumber
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDecimal.h
+NSMaxRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[CPTAxisTitle initWithContentLayer:]
+-[CPTAxisTitle isEqual:]
+-[CPTAxisTitle hash]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisTitle.m
+__tg_fmod
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTPlatformSpecificDefines.m
++[_CPTStocksTheme load]
++[_CPTStocksTheme name]
+-[_CPTStocksTheme applyThemeToBackground:]
+-[_CPTStocksTheme applyThemeToPlotArea:]
+-[_CPTStocksTheme applyThemeToAxisSet:]
+-[_CPTStocksTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTStocksTheme.m
+-[CPTImage(CPTPlatformSpecificImageExtensions) initWithNativeImage:]
+-[CPTImage(CPTPlatformSpecificImageExtensions) initForPNGFile:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTImagePlatformSpecific.m
+-[_CPTAnimationCGFloatPeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationCGFloatPeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationCGFloatPeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationCGFloatPeriod.m
+CPTCurrentFloatValue
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTExceptions.m
++[_CPTDarkGradientTheme load]
++[_CPTDarkGradientTheme name]
+-[_CPTDarkGradientTheme applyThemeToAxis:usingMajorLineStyle:minorLineStyle:textStyle:minorTickTextStyle:]
+-[_CPTDarkGradientTheme applyThemeToBackground:]
+-[_CPTDarkGradientTheme applyThemeToPlotArea:]
+-[_CPTDarkGradientTheme applyThemeToAxisSet:]
+-[_CPTDarkGradientTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTDarkGradientTheme.m
++[_CPTPlainBlackTheme load]
++[_CPTPlainBlackTheme name]
+-[_CPTPlainBlackTheme applyThemeToBackground:]
+-[_CPTPlainBlackTheme applyThemeToPlotArea:]
+-[_CPTPlainBlackTheme applyThemeToAxisSet:]
+-[_CPTPlainBlackTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTPlainBlackTheme.m
++[CPTNumericData numericDataWithData:dataType:shape:]
++[CPTNumericData numericDataWithData:dataTypeString:shape:]
++[CPTNumericData numericDataWithArray:dataType:shape:]
++[CPTNumericData numericDataWithArray:dataTypeString:shape:]
++[CPTNumericData numericDataWithData:dataType:shape:dataOrder:]
++[CPTNumericData numericDataWithData:dataTypeString:shape:dataOrder:]
++[CPTNumericData numericDataWithArray:dataType:shape:dataOrder:]
++[CPTNumericData numericDataWithArray:dataTypeString:shape:dataOrder:]
+-[CPTNumericData initWithData:dataType:shape:]
+-[CPTNumericData initWithData:dataTypeString:shape:]
+-[CPTNumericData initWithArray:dataType:shape:]
+-[CPTNumericData initWithArray:dataTypeString:shape:]
+-[CPTNumericData initWithData:dataType:shape:dataOrder:]
+-[CPTNumericData initWithData:dataTypeString:shape:dataOrder:]
+-[CPTNumericData initWithArray:dataType:shape:dataOrder:]
+-[CPTNumericData initWithArray:dataTypeString:shape:dataOrder:]
+-[CPTNumericData init]
+-[CPTNumericData commonInitWithData:dataType:shape:dataOrder:]
+-[CPTNumericData numberOfDimensions]
+-[CPTNumericData bytes]
+-[CPTNumericData length]
+-[CPTNumericData numberOfSamples]
+-[CPTNumericData dataTypeFormat]
+-[CPTNumericData sampleBytes]
+-[CPTNumericData byteOrder]
+-[CPTNumericData setData:]
+-[CPTNumericData setDataType:]
+-[CPTNumericData setShape:]
+-[CPTNumericData sampleIndex:]
+-[CPTNumericData sampleValue:]
+-[CPTNumericData sampleValueAtIndex:]
+-[CPTNumericData samplePointer:]
+-[CPTNumericData samplePointerAtIndex:]
+-[CPTNumericData sampleArray]
+-[CPTNumericData sampleIndex:indexList:]
+-[CPTNumericData dataFromArray:dataType:]
+-[CPTNumericData description]
+-[CPTNumericData mutableCopyWithZone:]
+-[CPTNumericData copyWithZone:]
+-[CPTNumericData encodeWithCoder:]
+-[CPTNumericData initWithCoder:]
++[CPTNumericData supportsSecureCoding]
+-[CPTNumericData data]
+-[CPTNumericData dataType]
+-[CPTNumericData shape]
+-[CPTNumericData dataOrder]
+-[CPTNumericData setDataOrder:]
+-[CPTNumericData .cxx_destruct]
+_OBJC_IVAR_$_CPTNumericData.data
+_OBJC_IVAR_$_CPTNumericData.dataType
+_OBJC_IVAR_$_CPTNumericData.shape
+_OBJC_IVAR_$_CPTNumericData.dataOrder
+l_OBJC_PROTOCOL_$_NSMutableCopying
+l_OBJC_LABEL_PROTOCOL_$_NSMutableCopying
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTNumericData.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTNumericData.h
+-[CPTXYAxisSet initWithFrame:]
+-[CPTXYAxisSet renderAsVectorInContext:]
+-[CPTXYAxisSet layoutSublayers]
+-[CPTXYAxisSet xAxis]
+-[CPTXYAxisSet yAxis]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYAxisSet.m
++[CPTLimitBand limitBandWithRange:fill:]
+-[CPTLimitBand initWithRange:fill:]
+-[CPTLimitBand init]
+-[CPTLimitBand copyWithZone:]
+-[CPTLimitBand encodeWithCoder:]
+-[CPTLimitBand initWithCoder:]
++[CPTLimitBand supportsSecureCoding]
+-[CPTLimitBand description]
+-[CPTLimitBand range]
+-[CPTLimitBand setRange:]
+-[CPTLimitBand fill]
+-[CPTLimitBand setFill:]
+-[CPTLimitBand .cxx_destruct]
+_OBJC_IVAR_$_CPTLimitBand.range
+_OBJC_IVAR_$_CPTLimitBand.fill
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLimitBand.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLimitBand.h
+-[CPTGridLines initWithFrame:]
+-[CPTGridLines initWithLayer:]
+-[CPTGridLines encodeWithCoder:]
+-[CPTGridLines initWithCoder:]
++[CPTGridLines supportsSecureCoding]
+-[CPTGridLines renderAsVectorInContext:]
+-[CPTGridLines setAxis:]
+-[CPTGridLines axis]
+-[CPTGridLines major]
+-[CPTGridLines setMajor:]
+-[CPTGridLines .cxx_destruct]
+_OBJC_IVAR_$_CPTGridLines.axis
+_OBJC_IVAR_$_CPTGridLines.major
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGridLines.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGridLines.h
+-[_CPTAnimationNSNumberPeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationNSNumberPeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationNSNumberPeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationNSNumberPeriod.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPathExtensions.m
+CPTAddRoundedRectPath
+CPTCreateRoundedRectPath
+-[CPTXYPlotSpace init]
+-[CPTXYPlotSpace encodeWithCoder:]
+-[CPTXYPlotSpace initWithCoder:]
++[CPTXYPlotSpace supportsSecureCoding]
+-[CPTXYPlotSpace setPlotRange:forCoordinate:]
+-[CPTXYPlotSpace plotRangeForCoordinate:]
+-[CPTXYPlotSpace setScaleType:forCoordinate:]
+-[CPTXYPlotSpace scaleTypeForCoordinate:]
+-[CPTXYPlotSpace setXRange:]
+-[CPTXYPlotSpace setYRange:]
+-[CPTXYPlotSpace constrainRange:toGlobalRange:]
+-[CPTXYPlotSpace animateRangeForCoordinate:shift:momentumTime:speed:acceleration:]
+-[CPTXYPlotSpace viewCoordinateForRange:coordinate:direction:]
+-[CPTXYPlotSpace setGlobalXRange:]
+-[CPTXYPlotSpace setGlobalYRange:]
+-[CPTXYPlotSpace scaleToFitPlots:]
+-[CPTXYPlotSpace scaleToFitEntirePlots:]
+-[CPTXYPlotSpace setXScaleType:]
+-[CPTXYPlotSpace setYScaleType:]
+-[CPTXYPlotSpace viewCoordinateForViewLength:linearPlotRange:plotCoordinateValue:]
+-[CPTXYPlotSpace viewCoordinateForViewLength:linearPlotRange:doublePrecisionPlotCoordinateValue:]
+-[CPTXYPlotSpace plotCoordinateForViewLength:linearPlotRange:boundsLength:]
+-[CPTXYPlotSpace doublePrecisionPlotCoordinateForViewLength:linearPlotRange:boundsLength:]
+-[CPTXYPlotSpace viewCoordinateForViewLength:logPlotRange:doublePrecisionPlotCoordinateValue:]
+-[CPTXYPlotSpace doublePrecisionPlotCoordinateForViewLength:logPlotRange:boundsLength:]
+-[CPTXYPlotSpace viewCoordinateForViewLength:logModulusPlotRange:doublePrecisionPlotCoordinateValue:]
+-[CPTXYPlotSpace doublePrecisionPlotCoordinateForViewLength:logModulusPlotRange:boundsLength:]
+-[CPTXYPlotSpace numberOfCoordinates]
+-[CPTXYPlotSpace plotAreaViewPointForPlotPoint:]
+-[CPTXYPlotSpace plotAreaViewPointForPlotPoint:numberOfCoordinates:]
+-[CPTXYPlotSpace plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:]
+-[CPTXYPlotSpace plotPointForPlotAreaViewPoint:]
+-[CPTXYPlotSpace plotPoint:numberOfCoordinates:forPlotAreaViewPoint:]
+-[CPTXYPlotSpace doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:]
+-[CPTXYPlotSpace plotAreaViewPointForEvent:]
+-[CPTXYPlotSpace plotPointForEvent:]
+-[CPTXYPlotSpace plotPoint:numberOfCoordinates:forEvent:]
+-[CPTXYPlotSpace doublePrecisionPlotPoint:numberOfCoordinates:forEvent:]
+-[CPTXYPlotSpace scaleBy:aboutPoint:]
+-[CPTXYPlotSpace pointingDeviceDownEvent:atPoint:]
+-[CPTXYPlotSpace pointingDeviceUpEvent:atPoint:]
+-[CPTXYPlotSpace pointingDeviceDraggedEvent:atPoint:]
+-[CPTXYPlotSpace shiftRange:by:usingMomentum:inGlobalRange:withDisplacement:]
+-[CPTXYPlotSpace cancelAnimations]
+-[CPTXYPlotSpace setAllowsMomentum:]
+-[CPTXYPlotSpace allowsMomentum]
+-[CPTXYPlotSpace animationDidFinish:]
+-[CPTXYPlotSpace debugQuickLookObject]
+-[CPTXYPlotSpace xRange]
+-[CPTXYPlotSpace yRange]
+-[CPTXYPlotSpace globalXRange]
+-[CPTXYPlotSpace globalYRange]
+-[CPTXYPlotSpace xScaleType]
+-[CPTXYPlotSpace yScaleType]
+-[CPTXYPlotSpace allowsMomentumX]
+-[CPTXYPlotSpace setAllowsMomentumX:]
+-[CPTXYPlotSpace allowsMomentumY]
+-[CPTXYPlotSpace setAllowsMomentumY:]
+-[CPTXYPlotSpace momentumAnimationCurve]
+-[CPTXYPlotSpace setMomentumAnimationCurve:]
+-[CPTXYPlotSpace bounceAnimationCurve]
+-[CPTXYPlotSpace setBounceAnimationCurve:]
+-[CPTXYPlotSpace momentumAcceleration]
+-[CPTXYPlotSpace setMomentumAcceleration:]
+-[CPTXYPlotSpace bounceAcceleration]
+-[CPTXYPlotSpace setBounceAcceleration:]
+-[CPTXYPlotSpace minimumDisplacementToDrag]
+-[CPTXYPlotSpace setMinimumDisplacementToDrag:]
+-[CPTXYPlotSpace lastDragPoint]
+-[CPTXYPlotSpace setLastDragPoint:]
+-[CPTXYPlotSpace lastDisplacement]
+-[CPTXYPlotSpace setLastDisplacement:]
+-[CPTXYPlotSpace lastDragTime]
+-[CPTXYPlotSpace setLastDragTime:]
+-[CPTXYPlotSpace lastDeltaTime]
+-[CPTXYPlotSpace setLastDeltaTime:]
+-[CPTXYPlotSpace animations]
+-[CPTXYPlotSpace setAnimations:]
+-[CPTXYPlotSpace .cxx_destruct]
+_OBJC_IVAR_$_CPTXYPlotSpace.xRange
+_OBJC_IVAR_$_CPTXYPlotSpace.yRange
+_OBJC_IVAR_$_CPTXYPlotSpace.globalXRange
+_OBJC_IVAR_$_CPTXYPlotSpace.globalYRange
+_OBJC_IVAR_$_CPTXYPlotSpace.xScaleType
+_OBJC_IVAR_$_CPTXYPlotSpace.yScaleType
+_OBJC_IVAR_$_CPTXYPlotSpace.lastDragPoint
+_OBJC_IVAR_$_CPTXYPlotSpace.lastDisplacement
+_OBJC_IVAR_$_CPTXYPlotSpace.lastDragTime
+_OBJC_IVAR_$_CPTXYPlotSpace.lastDeltaTime
+_OBJC_IVAR_$_CPTXYPlotSpace.animations
+_OBJC_IVAR_$_CPTXYPlotSpace.allowsMomentumX
+_OBJC_IVAR_$_CPTXYPlotSpace.allowsMomentumY
+_OBJC_IVAR_$_CPTXYPlotSpace.momentumAnimationCurve
+_OBJC_IVAR_$_CPTXYPlotSpace.bounceAnimationCurve
+_OBJC_IVAR_$_CPTXYPlotSpace.momentumAcceleration
+_OBJC_IVAR_$_CPTXYPlotSpace.bounceAcceleration
+_OBJC_IVAR_$_CPTXYPlotSpace.minimumDisplacementToDrag
+l_OBJC_PROTOCOL_$_CAAnimationDelegate
+l_OBJC_LABEL_PROTOCOL_$_CAAnimationDelegate
+l_OBJC_PROTOCOL_$_CPTAnimationDelegate
+l_OBJC_LABEL_PROTOCOL_$_CPTAnimationDelegate
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYPlotSpace.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYPlotSpace.h
+__tg_sqrt
+__tg_sin
+__tg_cos
+__tg_atan2
+CPTFirstPositiveRoot
++[CPTPlotRange plotRangeWithLocation:length:]
++[CPTPlotRange plotRangeWithLocationDecimal:lengthDecimal:]
+-[CPTPlotRange initWithLocation:length:]
+-[CPTPlotRange initWithLocationDecimal:lengthDecimal:]
+-[CPTPlotRange init]
+-[CPTPlotRange location]
+-[CPTPlotRange setLocationDecimal:]
+-[CPTPlotRange setLocationDouble:]
+-[CPTPlotRange length]
+-[CPTPlotRange setLengthDecimal:]
+-[CPTPlotRange setLengthDouble:]
+-[CPTPlotRange end]
+-[CPTPlotRange endDecimal]
+-[CPTPlotRange endDouble]
+-[CPTPlotRange minLimit]
+-[CPTPlotRange minLimitDecimal]
+-[CPTPlotRange minLimitDouble]
+-[CPTPlotRange midPoint]
+-[CPTPlotRange midPointDecimal]
+-[CPTPlotRange midPointDouble]
+-[CPTPlotRange maxLimit]
+-[CPTPlotRange maxLimitDecimal]
+-[CPTPlotRange maxLimitDouble]
+-[CPTPlotRange copyWithZone:]
+-[CPTPlotRange mutableCopyWithZone:]
+-[CPTPlotRange encodeWithCoder:]
+-[CPTPlotRange initWithCoder:]
++[CPTPlotRange supportsSecureCoding]
+-[CPTPlotRange contains:]
+-[CPTPlotRange containsDouble:]
+-[CPTPlotRange containsNumber:]
+-[CPTPlotRange isEqualToRange:]
+-[CPTPlotRange containsRange:]
+-[CPTPlotRange intersectsRange:]
+-[CPTPlotRange compareToNumber:]
+-[CPTPlotRange compareToDecimal:]
+-[CPTPlotRange compareToDouble:]
+-[CPTPlotRange isEqual:]
+-[CPTPlotRange hash]
+-[CPTPlotRange description]
+-[CPTPlotRange debugQuickLookObject]
+-[CPTPlotRange locationDecimal]
+-[CPTPlotRange lengthDecimal]
+-[CPTPlotRange locationDouble]
+-[CPTPlotRange lengthDouble]
+-[CPTPlotRange inValueUpdate]
+-[CPTPlotRange setInValueUpdate:]
+_OBJC_IVAR_$_CPTPlotRange.locationDecimal
+_OBJC_IVAR_$_CPTPlotRange.locationDouble
+_OBJC_IVAR_$_CPTPlotRange.lengthDecimal
+_OBJC_IVAR_$_CPTPlotRange.lengthDouble
+_OBJC_IVAR_$_CPTPlotRange.inValueUpdate
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotRange.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotRange.h
+-[CPTImage initWithContentsOfFile:]
+-[CPTImage initWithCGImage:scale:]
+-[CPTImage initWithCGImage:]
+-[CPTImage init]
+-[CPTImage dealloc]
+-[CPTImage encodeWithCoder:]
+-[CPTImage initWithCoder:]
++[CPTImage supportsSecureCoding]
+-[CPTImage copyWithZone:]
++[CPTImage imageNamed:]
++[CPTImage imageWithNativeImage:]
++[CPTImage imageWithContentsOfFile:]
++[CPTImage imageWithCGImage:scale:]
++[CPTImage imageWithCGImage:]
++[CPTImage imageForPNGFile:]
+-[CPTImage isEqual:]
+-[CPTImage hash]
+-[CPTImage isOpaque]
+-[CPTImage setImage:]
+-[CPTImage setNativeImage:]
+-[CPTImage nativeImage]
+-[CPTImage setScale:]
+-[CPTImage setEdgeInsets:]
+-[CPTImage setSlices:]
+-[CPTImage makeImageSlices]
+-[CPTImage drawImage:inContext:rect:scaleRatio:]
+-[CPTImage drawInRect:inContext:]
+-[CPTImage debugQuickLookObject]
+-[CPTImage image]
+-[CPTImage scale]
+-[CPTImage isTiled]
+-[CPTImage setTiled:]
+-[CPTImage edgeInsets]
+-[CPTImage tileAnchoredToContext]
+-[CPTImage setTileAnchoredToContext:]
+-[CPTImage lastDrawnScale]
+-[CPTImage setLastDrawnScale:]
+-[CPTImage slices]
+-[CPTImage .cxx_destruct]
+_OBJC_IVAR_$_CPTImage.nativeImage
+_OBJC_IVAR_$_CPTImage.image
+_OBJC_IVAR_$_CPTImage.scale
+_OBJC_IVAR_$_CPTImage.lastDrawnScale
+_OBJC_IVAR_$_CPTImage.tiled
+_OBJC_IVAR_$_CPTImage.tileAnchoredToContext
+_OBJC_IVAR_$_CPTImage.edgeInsets
+_OBJC_IVAR_$_CPTImage.slices
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTImage.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTImage.h
+-[CPTPlotSymbol init]
+-[CPTPlotSymbol dealloc]
+-[CPTPlotSymbol encodeWithCoder:]
+-[CPTPlotSymbol initWithCoder:]
++[CPTPlotSymbol supportsSecureCoding]
+-[CPTPlotSymbol setSize:]
+-[CPTPlotSymbol setSymbolType:]
+-[CPTPlotSymbol setShadow:]
+-[CPTPlotSymbol setCustomSymbolPath:]
+-[CPTPlotSymbol setLineStyle:]
+-[CPTPlotSymbol setFill:]
+-[CPTPlotSymbol setUsesEvenOddClipRule:]
+-[CPTPlotSymbol cachedSymbolPath]
+-[CPTPlotSymbol setCachedSymbolPath:]
+-[CPTPlotSymbol setCachedLayer:]
++[CPTPlotSymbol plotSymbol]
++[CPTPlotSymbol crossPlotSymbol]
++[CPTPlotSymbol ellipsePlotSymbol]
++[CPTPlotSymbol rectanglePlotSymbol]
++[CPTPlotSymbol plusPlotSymbol]
++[CPTPlotSymbol starPlotSymbol]
++[CPTPlotSymbol diamondPlotSymbol]
++[CPTPlotSymbol trianglePlotSymbol]
++[CPTPlotSymbol pentagonPlotSymbol]
++[CPTPlotSymbol hexagonPlotSymbol]
++[CPTPlotSymbol dashPlotSymbol]
++[CPTPlotSymbol snowPlotSymbol]
++[CPTPlotSymbol customPlotSymbolWithPath:]
+-[CPTPlotSymbol copyWithZone:]
+-[CPTPlotSymbol renderInContext:atPoint:scale:alignToPixels:]
+-[CPTPlotSymbol layerSizeForScale:]
+-[CPTPlotSymbol renderAsVectorInContext:atPoint:scale:]
+-[CPTPlotSymbol newSymbolPath]
+-[CPTPlotSymbol debugQuickLookObject]
+___37-[CPTPlotSymbol debugQuickLookObject]_block_invoke
+-[CPTPlotSymbol anchorPoint]
+-[CPTPlotSymbol setAnchorPoint:]
+-[CPTPlotSymbol size]
+-[CPTPlotSymbol symbolType]
+-[CPTPlotSymbol lineStyle]
+-[CPTPlotSymbol fill]
+-[CPTPlotSymbol shadow]
+-[CPTPlotSymbol customSymbolPath]
+-[CPTPlotSymbol usesEvenOddClipRule]
+-[CPTPlotSymbol cachedLayer]
+-[CPTPlotSymbol cachedScale]
+-[CPTPlotSymbol setCachedScale:]
+-[CPTPlotSymbol .cxx_destruct]
+_OBJC_IVAR_$_CPTPlotSymbol.anchorPoint
+_OBJC_IVAR_$_CPTPlotSymbol.size
+_OBJC_IVAR_$_CPTPlotSymbol.symbolType
+_OBJC_IVAR_$_CPTPlotSymbol.lineStyle
+_OBJC_IVAR_$_CPTPlotSymbol.fill
+_OBJC_IVAR_$_CPTPlotSymbol.shadow
+_OBJC_IVAR_$_CPTPlotSymbol.cachedSymbolPath
+_OBJC_IVAR_$_CPTPlotSymbol.customSymbolPath
+_OBJC_IVAR_$_CPTPlotSymbol.usesEvenOddClipRule
+_OBJC_IVAR_$_CPTPlotSymbol.cachedLayer
+_OBJC_IVAR_$_CPTPlotSymbol.cachedScale
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSymbol.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSymbol.h
+__37-[CPTPlotSymbol debugQuickLookObject]_block_invoke
+-[CPTAxisSet initWithFrame:]
+-[CPTAxisSet initWithLayer:]
+-[CPTAxisSet encodeWithCoder:]
+-[CPTAxisSet initWithCoder:]
++[CPTAxisSet supportsSecureCoding]
+-[CPTAxisSet display]
+-[CPTAxisSet relabelAxes]
+-[CPTAxisSet axisForCoordinate:atIndex:]
+-[CPTAxisSet pointingDeviceDownEvent:atPoint:]
+-[CPTAxisSet pointingDeviceUpEvent:atPoint:]
+-[CPTAxisSet setAxes:]
+-[CPTAxisSet setBorderLineStyle:]
+-[CPTAxisSet axes]
+-[CPTAxisSet borderLineStyle]
+-[CPTAxisSet .cxx_destruct]
+_OBJC_IVAR_$_CPTAxisSet.axes
+_OBJC_IVAR_$_CPTAxisSet.borderLineStyle
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisSet.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisSet.h
+-[CPTPlotGroup initWithCoder:]
++[CPTPlotGroup supportsSecureCoding]
+-[CPTPlotGroup addPlot:]
+-[CPTPlotGroup insertPlot:atIndex:]
+-[CPTPlotGroup removePlot:]
+-[CPTPlotGroup display]
+-[CPTPlotGroup renderAsVectorInContext:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotGroup.m
+-[CPTAnimation init]
+-[CPTAnimation dealloc]
+___23-[CPTAnimation dealloc]_block_invoke
++[CPTAnimation sharedInstance]
+___30+[CPTAnimation sharedInstance]_block_invoke
+___copy_helper_block_.25
+___destroy_helper_block_.26
++[CPTAnimation animate:property:period:animationCurve:delegate:]
++[CPTAnimation setterFromProperty:]
+-[CPTAnimation addAnimationOperation:]
+___38-[CPTAnimation addAnimationOperation:]_block_invoke
+___copy_helper_block_.71
+___destroy_helper_block_.72
+-[CPTAnimation removeAnimationOperation:]
+___41-[CPTAnimation removeAnimationOperation:]_block_invoke
+___copy_helper_block_.76
+___destroy_helper_block_.77
+-[CPTAnimation removeAllAnimationOperations]
+___44-[CPTAnimation removeAllAnimationOperations]_block_invoke
+___copy_helper_block_.79
+___destroy_helper_block_.80
+-[CPTAnimation operationWithIdentifier:]
+-[CPTAnimation update]
+___22-[CPTAnimation update]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+-[CPTAnimation updateOnMainThreadWithParameters:]
+___49-[CPTAnimation updateOnMainThreadWithParameters:]_block_invoke
+___copy_helper_block_.145
+___destroy_helper_block_.146
+___49-[CPTAnimation updateOnMainThreadWithParameters:]_block_invoke.185
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[CPTAnimation startTimer]
+___26-[CPTAnimation startTimer]_block_invoke
+___copy_helper_block_.191
+___destroy_helper_block_.192
+-[CPTAnimation cancelTimer]
+-[CPTAnimation timingFunctionForAnimationCurve:]
+-[CPTAnimation description]
+-[CPTAnimation timeOffset]
+-[CPTAnimation setTimeOffset:]
+-[CPTAnimation defaultAnimationCurve]
+-[CPTAnimation setDefaultAnimationCurve:]
+-[CPTAnimation animationOperations]
+-[CPTAnimation setAnimationOperations:]
+-[CPTAnimation runningAnimationOperations]
+-[CPTAnimation setRunningAnimationOperations:]
+-[CPTAnimation timer]
+-[CPTAnimation setTimer:]
+-[CPTAnimation animationQueue]
+-[CPTAnimation setAnimationQueue:]
+-[CPTAnimation .cxx_destruct]
+_OBJC_IVAR_$_CPTAnimation.animationOperations
+_OBJC_IVAR_$_CPTAnimation.runningAnimationOperations
+_OBJC_IVAR_$_CPTAnimation.timer
+_OBJC_IVAR_$_CPTAnimation.timeOffset
+_OBJC_IVAR_$_CPTAnimation.defaultAnimationCurve
+_OBJC_IVAR_$_CPTAnimation.animationQueue
+_sharedInstance.once
+_sharedInstance.shared
+___block_descriptor_tmp.27
+___block_descriptor_tmp.73
+___block_descriptor_tmp.78
+___block_descriptor_tmp.81
+___block_descriptor_tmp.109
+___block_descriptor_tmp.147
+___block_descriptor_tmp.188
+___block_descriptor_tmp.193
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimation.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimation.h
+__26-[CPTAnimation startTimer]_block_invoke
+__49-[CPTAnimation updateOnMainThreadWithParameters:]_block_invoke.185
+__49-[CPTAnimation updateOnMainThreadWithParameters:]_block_invoke
+__22-[CPTAnimation update]_block_invoke
+__44-[CPTAnimation removeAllAnimationOperations]_block_invoke
+__41-[CPTAnimation removeAnimationOperation:]_block_invoke
+__38-[CPTAnimation addAnimationOperation:]_block_invoke
+__30+[CPTAnimation sharedInstance]_block_invoke
+__23-[CPTAnimation dealloc]_block_invoke
+-[_CPTAnimationNSDecimalPeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationNSDecimalPeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationNSDecimalPeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationNSDecimalPeriod.m
+CPTCurrentDecimalValue
+-[_CPTAnimationPlotRangePeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationPlotRangePeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationPlotRangePeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationPlotRangePeriod.m
+-[CPTPlotAreaFrame initWithFrame:]
+-[CPTPlotAreaFrame initWithLayer:]
+-[CPTPlotAreaFrame encodeWithCoder:]
+-[CPTPlotAreaFrame initWithCoder:]
++[CPTPlotAreaFrame supportsSecureCoding]
+-[CPTPlotAreaFrame pointingDeviceDownEvent:atPoint:]
+-[CPTPlotAreaFrame pointingDeviceUpEvent:atPoint:]
+-[CPTPlotAreaFrame pointingDeviceDraggedEvent:atPoint:]
+-[CPTPlotAreaFrame pointingDeviceCancelledEvent:]
+-[CPTPlotAreaFrame setPlotArea:]
+-[CPTPlotAreaFrame axisSet]
+-[CPTPlotAreaFrame setAxisSet:]
+-[CPTPlotAreaFrame plotGroup]
+-[CPTPlotAreaFrame setPlotGroup:]
+-[CPTPlotAreaFrame setGraph:]
+-[CPTPlotAreaFrame plotArea]
+-[CPTPlotAreaFrame .cxx_destruct]
+_OBJC_IVAR_$_CPTPlotAreaFrame.plotArea
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotAreaFrame.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotAreaFrame.h
+-[CPTAxisLabel initWithText:textStyle:]
+-[CPTAxisLabel initWithContentLayer:]
+-[CPTAxisLabel init]
+-[CPTAxisLabel encodeWithCoder:]
+-[CPTAxisLabel initWithCoder:]
++[CPTAxisLabel supportsSecureCoding]
+-[CPTAxisLabel positionRelativeToViewPoint:forCoordinate:inDirection:]
+-[CPTAxisLabel positionBetweenViewPoint:andViewPoint:forCoordinate:inDirection:]
+-[CPTAxisLabel description]
+-[CPTAxisLabel isEqual:]
+-[CPTAxisLabel hash]
+-[CPTAxisLabel contentLayer]
+-[CPTAxisLabel setContentLayer:]
+-[CPTAxisLabel offset]
+-[CPTAxisLabel setOffset:]
+-[CPTAxisLabel rotation]
+-[CPTAxisLabel setRotation:]
+-[CPTAxisLabel alignment]
+-[CPTAxisLabel setAlignment:]
+-[CPTAxisLabel tickLocation]
+-[CPTAxisLabel setTickLocation:]
+-[CPTAxisLabel .cxx_destruct]
+_OBJC_IVAR_$_CPTAxisLabel.contentLayer
+_OBJC_IVAR_$_CPTAxisLabel.offset
+_OBJC_IVAR_$_CPTAxisLabel.rotation
+_OBJC_IVAR_$_CPTAxisLabel.alignment
+_OBJC_IVAR_$_CPTAxisLabel.tickLocation
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisLabel.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisLabel.h
+__inline_signbitf
++[CPTShadow shadow]
+-[CPTShadow init]
+-[CPTShadow encodeWithCoder:]
+-[CPTShadow initWithCoder:]
++[CPTShadow supportsSecureCoding]
+-[CPTShadow setShadowInContext:]
+-[CPTShadow copyWithZone:]
+-[CPTShadow mutableCopyWithZone:]
+-[CPTShadow setShadowBlurRadius:]
+-[CPTShadow shadowOffset]
+-[CPTShadow setShadowOffset:]
+-[CPTShadow shadowBlurRadius]
+-[CPTShadow shadowColor]
+-[CPTShadow setShadowColor:]
+-[CPTShadow .cxx_destruct]
+_OBJC_IVAR_$_CPTShadow.shadowOffset
+_OBJC_IVAR_$_CPTShadow.shadowBlurRadius
+_OBJC_IVAR_$_CPTShadow.shadowColor
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTShadow.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTShadow.h
+-[_CPTAnimationCGPointPeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationCGPointPeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationCGPointPeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationCGPointPeriod.m
+CPTCurrentPointValue
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTPlatformSpecificFunctions.m
+CPTQuickLookImage
+CPTPopCGContext
+CPTPushCGContext
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutableShadow.m
+-[_CPTAnimationCGRectPeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationCGRectPeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationCGRectPeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationCGRectPeriod.m
+CPTCurrentRectValue
+-[CPTPlotSpace init]
+-[CPTPlotSpace dealloc]
+-[CPTPlotSpace encodeWithCoder:]
+-[CPTPlotSpace initWithCoder:]
++[CPTPlotSpace supportsSecureCoding]
+-[CPTPlotSpace orderedSetForCoordinate:]
+-[CPTPlotSpace addCategory:forCoordinate:]
+-[CPTPlotSpace removeCategory:forCoordinate:]
+-[CPTPlotSpace insertCategory:forCoordinate:atIndex:]
+-[CPTPlotSpace setCategories:forCoordinate:]
+-[CPTPlotSpace removeAllCategories]
+-[CPTPlotSpace categoriesForCoordinate:]
+-[CPTPlotSpace categoryForCoordinate:atIndex:]
+-[CPTPlotSpace indexOfCategory:forCoordinate:]
+-[CPTPlotSpace pointingDeviceDownEvent:atPoint:]
+-[CPTPlotSpace pointingDeviceUpEvent:atPoint:]
+-[CPTPlotSpace pointingDeviceDraggedEvent:atPoint:]
+-[CPTPlotSpace pointingDeviceCancelledEvent:]
+-[CPTPlotSpace identifier]
+-[CPTPlotSpace setIdentifier:]
+-[CPTPlotSpace allowsUserInteraction]
+-[CPTPlotSpace setAllowsUserInteraction:]
+-[CPTPlotSpace isDragging]
+-[CPTPlotSpace setIsDragging:]
+-[CPTPlotSpace graph]
+-[CPTPlotSpace setGraph:]
+-[CPTPlotSpace delegate]
+-[CPTPlotSpace setDelegate:]
+-[CPTPlotSpace categoryNames]
+-[CPTPlotSpace setCategoryNames:]
+-[CPTPlotSpace .cxx_destruct]
+-[CPTPlotSpace(AbstractMethods) numberOfCoordinates]
+-[CPTPlotSpace(AbstractMethods) plotAreaViewPointForPlotPoint:]
+-[CPTPlotSpace(AbstractMethods) plotAreaViewPointForPlotPoint:numberOfCoordinates:]
+-[CPTPlotSpace(AbstractMethods) plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:]
+-[CPTPlotSpace(AbstractMethods) plotPointForPlotAreaViewPoint:]
+-[CPTPlotSpace(AbstractMethods) plotPoint:numberOfCoordinates:forPlotAreaViewPoint:]
+-[CPTPlotSpace(AbstractMethods) doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:]
+-[CPTPlotSpace(AbstractMethods) plotAreaViewPointForEvent:]
+-[CPTPlotSpace(AbstractMethods) plotPointForEvent:]
+-[CPTPlotSpace(AbstractMethods) plotPoint:numberOfCoordinates:forEvent:]
+-[CPTPlotSpace(AbstractMethods) doublePrecisionPlotPoint:numberOfCoordinates:forEvent:]
+-[CPTPlotSpace(AbstractMethods) setPlotRange:forCoordinate:]
+-[CPTPlotSpace(AbstractMethods) plotRangeForCoordinate:]
+-[CPTPlotSpace(AbstractMethods) setScaleType:forCoordinate:]
+-[CPTPlotSpace(AbstractMethods) scaleTypeForCoordinate:]
+-[CPTPlotSpace(AbstractMethods) scaleToFitPlots:]
+-[CPTPlotSpace(AbstractMethods) scaleToFitPlots:forCoordinate:]
+-[CPTPlotSpace(AbstractMethods) scaleToFitEntirePlots:]
+-[CPTPlotSpace(AbstractMethods) scaleToFitEntirePlots:forCoordinate:]
+-[CPTPlotSpace(AbstractMethods) scaleBy:aboutPoint:]
+-[CPTPlotSpace(AbstractMethods) debugQuickLookObject]
+_OBJC_IVAR_$_CPTPlotSpace.identifier
+_OBJC_IVAR_$_CPTPlotSpace.allowsUserInteraction
+_OBJC_IVAR_$_CPTPlotSpace.isDragging
+_OBJC_IVAR_$_CPTPlotSpace.graph
+_OBJC_IVAR_$_CPTPlotSpace.delegate
+_OBJC_IVAR_$_CPTPlotSpace.categoryNames
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSpace.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotSpace.h
+-[CPTLineCap init]
+-[CPTLineCap dealloc]
+-[CPTLineCap encodeWithCoder:]
+-[CPTLineCap initWithCoder:]
++[CPTLineCap supportsSecureCoding]
+-[CPTLineCap setSize:]
+-[CPTLineCap setLineCapType:]
+-[CPTLineCap setCustomLineCapPath:]
+-[CPTLineCap cachedLineCapPath]
+-[CPTLineCap setCachedLineCapPath:]
++[CPTLineCap lineCap]
++[CPTLineCap openArrowPlotLineCap]
++[CPTLineCap solidArrowPlotLineCap]
++[CPTLineCap sweptArrowPlotLineCap]
++[CPTLineCap rectanglePlotLineCap]
++[CPTLineCap ellipsePlotLineCap]
++[CPTLineCap diamondPlotLineCap]
++[CPTLineCap pentagonPlotLineCap]
++[CPTLineCap hexagonPlotLineCap]
++[CPTLineCap barPlotLineCap]
++[CPTLineCap crossPlotLineCap]
++[CPTLineCap snowPlotLineCap]
++[CPTLineCap customLineCapWithPath:]
+-[CPTLineCap copyWithZone:]
+-[CPTLineCap renderAsVectorInContext:atPoint:inDirection:]
+-[CPTLineCap newLineCapPath]
+-[CPTLineCap debugQuickLookObject]
+___34-[CPTLineCap debugQuickLookObject]_block_invoke
+-[CPTLineCap size]
+-[CPTLineCap lineCapType]
+-[CPTLineCap lineStyle]
+-[CPTLineCap setLineStyle:]
+-[CPTLineCap fill]
+-[CPTLineCap setFill:]
+-[CPTLineCap customLineCapPath]
+-[CPTLineCap usesEvenOddClipRule]
+-[CPTLineCap setUsesEvenOddClipRule:]
+-[CPTLineCap .cxx_destruct]
+_OBJC_IVAR_$_CPTLineCap.size
+_OBJC_IVAR_$_CPTLineCap.lineCapType
+_OBJC_IVAR_$_CPTLineCap.lineStyle
+_OBJC_IVAR_$_CPTLineCap.fill
+_OBJC_IVAR_$_CPTLineCap.cachedLineCapPath
+_OBJC_IVAR_$_CPTLineCap.customLineCapPath
+_OBJC_IVAR_$_CPTLineCap.usesEvenOddClipRule
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLineCap.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLineCap.h
+__34-[CPTLineCap debugQuickLookObject]_block_invoke
+-[CPTScatterPlot initWithFrame:]
+-[CPTScatterPlot initWithLayer:]
+-[CPTScatterPlot encodeWithCoder:]
+-[CPTScatterPlot initWithCoder:]
++[CPTScatterPlot supportsSecureCoding]
+-[CPTScatterPlot reloadDataInIndexRange:]
+-[CPTScatterPlot reloadPlotDataInIndexRange:]
+-[CPTScatterPlot reloadPlotSymbols]
+-[CPTScatterPlot reloadPlotSymbolsInIndexRange:]
+-[CPTScatterPlot plotSymbolForRecordIndex:]
+-[CPTScatterPlot calculatePointsToDraw:forPlotSpace:includeVisiblePointsOnly:numberOfPoints:]
+___93-[CPTScatterPlot calculatePointsToDraw:forPlotSpace:includeVisiblePointsOnly:numberOfPoints:]_block_invoke
+___93-[CPTScatterPlot calculatePointsToDraw:forPlotSpace:includeVisiblePointsOnly:numberOfPoints:]_block_invoke.169
+___copy_helper_block_.172
+___destroy_helper_block_.173
+-[CPTScatterPlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]
+___72-[CPTScatterPlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke
+___copy_helper_block_.179
+___destroy_helper_block_.180
+___72-[CPTScatterPlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke.182
+___copy_helper_block_.185
+___destroy_helper_block_.186
+-[CPTScatterPlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]
+___87-[CPTScatterPlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke
+___87-[CPTScatterPlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke_2
+-[CPTScatterPlot extremeDrawnPointIndexForFlags:numberOfPoints:extremeNumIsLowerBound:]
+-[CPTScatterPlot dataIndexFromInteractionPoint:]
+-[CPTScatterPlot indexOfVisiblePointClosestToPlotAreaPoint:]
+-[CPTScatterPlot plotAreaPointOfVisiblePointAtIndex:]
+-[CPTScatterPlot renderAsVectorInContext:]
+-[CPTScatterPlot newDataLinePathForViewPoints:indexRange:baselineYValue:]
+-[CPTScatterPlot newCurvedDataLinePathForViewPoints:indexRange:baselineYValue:]
+-[CPTScatterPlot computeCatmullRomControlPoints:points2:withAlpha:forViewPoints:indexRange:]
+-[CPTScatterPlot computeHermiteControlPoints:points2:forViewPoints:indexRange:]
+-[CPTScatterPlot monotonicViewPoints:indexRange:]
+-[CPTScatterPlot computeBezierControlPoints:points2:forViewPoints:indexRange:]
+-[CPTScatterPlot drawSwatchForLegend:atIndex:inRect:inContext:]
+-[CPTScatterPlot newDataLinePath]
++[CPTScatterPlot needsDisplayForKey:]
+___37+[CPTScatterPlot needsDisplayForKey:]_block_invoke
+-[CPTScatterPlot plotRangeEnclosingField:]
+-[CPTScatterPlot numberOfFields]
+-[CPTScatterPlot fieldIdentifiers]
+-[CPTScatterPlot fieldIdentifiersForCoordinate:]
+-[CPTScatterPlot coordinateForFieldIdentifier:]
+-[CPTScatterPlot positionLabelAnnotation:forIndex:]
+-[CPTScatterPlot addAreaFillBand:]
+-[CPTScatterPlot removeAreaFillBand:]
+-[CPTScatterPlot pointingDeviceDownEvent:atPoint:]
+-[CPTScatterPlot pointingDeviceUpEvent:atPoint:]
+-[CPTScatterPlot plotWasLineHitByInteractionPoint:]
+-[CPTScatterPlot setInterpolation:]
+-[CPTScatterPlot setHistogramOption:]
+-[CPTScatterPlot setCurvedInterpolationOption:]
+-[CPTScatterPlot setCurvedInterpolationCustomAlpha:]
+-[CPTScatterPlot setPlotSymbol:]
+-[CPTScatterPlot setDataLineStyle:]
+-[CPTScatterPlot setAreaFill:]
+-[CPTScatterPlot setAreaFill2:]
+-[CPTScatterPlot areaFillBands]
+-[CPTScatterPlot setAreaBaseValue:]
+-[CPTScatterPlot setAreaBaseValue2:]
+-[CPTScatterPlot setXValues:]
+-[CPTScatterPlot xValues]
+-[CPTScatterPlot setYValues:]
+-[CPTScatterPlot yValues]
+-[CPTScatterPlot setPlotSymbols:]
+-[CPTScatterPlot plotSymbols]
+-[CPTScatterPlot interpolation]
+-[CPTScatterPlot histogramOption]
+-[CPTScatterPlot curvedInterpolationOption]
+-[CPTScatterPlot curvedInterpolationCustomAlpha]
+-[CPTScatterPlot dataLineStyle]
+-[CPTScatterPlot plotSymbol]
+-[CPTScatterPlot areaFill]
+-[CPTScatterPlot areaFill2]
+-[CPTScatterPlot areaBaseValue]
+-[CPTScatterPlot areaBaseValue2]
+-[CPTScatterPlot plotSymbolMarginForHitDetection]
+-[CPTScatterPlot setPlotSymbolMarginForHitDetection:]
+-[CPTScatterPlot plotLineMarginForHitDetection]
+-[CPTScatterPlot setPlotLineMarginForHitDetection:]
+-[CPTScatterPlot allowSimultaneousSymbolAndPlotSelection]
+-[CPTScatterPlot setAllowSimultaneousSymbolAndPlotSelection:]
+-[CPTScatterPlot pointingDeviceDownIndex]
+-[CPTScatterPlot setPointingDeviceDownIndex:]
+-[CPTScatterPlot pointingDeviceDownOnLine]
+-[CPTScatterPlot setPointingDeviceDownOnLine:]
+-[CPTScatterPlot mutableAreaFillBands]
+-[CPTScatterPlot setMutableAreaFillBands:]
+-[CPTScatterPlot .cxx_destruct]
+_OBJC_IVAR_$_CPTScatterPlot.dataLineStyle
+_OBJC_IVAR_$_CPTScatterPlot.plotSymbol
+_OBJC_IVAR_$_CPTScatterPlot.areaFill
+_OBJC_IVAR_$_CPTScatterPlot.areaFill2
+_OBJC_IVAR_$_CPTScatterPlot.areaBaseValue
+_OBJC_IVAR_$_CPTScatterPlot.areaBaseValue2
+_OBJC_IVAR_$_CPTScatterPlot.plotSymbolMarginForHitDetection
+_OBJC_IVAR_$_CPTScatterPlot.plotLineMarginForHitDetection
+_OBJC_IVAR_$_CPTScatterPlot.interpolation
+_OBJC_IVAR_$_CPTScatterPlot.histogramOption
+_OBJC_IVAR_$_CPTScatterPlot.curvedInterpolationOption
+_OBJC_IVAR_$_CPTScatterPlot.curvedInterpolationCustomAlpha
+_OBJC_IVAR_$_CPTScatterPlot.pointingDeviceDownIndex
+_OBJC_IVAR_$_CPTScatterPlot.pointingDeviceDownOnLine
+_OBJC_IVAR_$_CPTScatterPlot.mutableAreaFillBands
+_OBJC_IVAR_$_CPTScatterPlot.allowSimultaneousSymbolAndPlotSelection
+___block_descriptor_tmp.174
+___block_descriptor_tmp.181
+___block_descriptor_tmp.187
+___block_descriptor_tmp.190
+___block_descriptor_tmp.192
+___block_descriptor_tmp.291
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTScatterPlot.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTScatterPlot.h
+__37+[CPTScatterPlot needsDisplayForKey:]_block_invoke
+__tg_fabs
+__tg_hypot
+__87-[CPTScatterPlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke_2
+__87-[CPTScatterPlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke
+__72-[CPTScatterPlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke.182
+__72-[CPTScatterPlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke
+__93-[CPTScatterPlot calculatePointsToDraw:forPlotSpace:includeVisiblePointsOnly:numberOfPoints:]_block_invoke.169
+__93-[CPTScatterPlot calculatePointsToDraw:forPlotSpace:includeVisiblePointsOnly:numberOfPoints:]_block_invoke
++[_CPTSlateTheme load]
++[_CPTSlateTheme name]
+-[_CPTSlateTheme applyThemeToAxis:usingMajorLineStyle:minorLineStyle:textStyle:minorTickTextStyle:]
+-[_CPTSlateTheme applyThemeToBackground:]
+-[_CPTSlateTheme applyThemeToPlotArea:]
+-[_CPTSlateTheme applyThemeToAxisSet:]
+-[_CPTSlateTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTSlateTheme.m
++[CPTAnimationPeriod periodWithStartValue:endValue:ofClass:duration:withDelay:]
++[CPTAnimationPeriod periodWithStart:end:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartPoint:endPoint:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartSize:endSize:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartRect:endRect:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartDecimal:endDecimal:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartNumber:endNumber:duration:withDelay:]
++[CPTAnimationPeriod periodWithStartPlotRange:endPlotRange:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartValue:endValue:ofClass:duration:withDelay:]
+-[CPTAnimationPeriod initWithStart:end:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartPoint:endPoint:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartSize:endSize:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartRect:endRect:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartDecimal:endDecimal:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartNumber:endNumber:duration:withDelay:]
+-[CPTAnimationPeriod initWithStartPlotRange:endPlotRange:duration:withDelay:]
+-[CPTAnimationPeriod init]
+-[CPTAnimationPeriod setStartValueFromObject:propertyGetter:]
+-[CPTAnimationPeriod tweenedValueForProgress:]
+-[CPTAnimationPeriod canStartWithValueFromObject:propertyGetter:]
+-[CPTAnimationPeriod description]
+-[CPTAnimationPeriod startValue]
+-[CPTAnimationPeriod setStartValue:]
+-[CPTAnimationPeriod endValue]
+-[CPTAnimationPeriod setEndValue:]
+-[CPTAnimationPeriod valueClass]
+-[CPTAnimationPeriod duration]
+-[CPTAnimationPeriod setDuration:]
+-[CPTAnimationPeriod delay]
+-[CPTAnimationPeriod setDelay:]
+-[CPTAnimationPeriod startOffset]
+-[CPTAnimationPeriod setStartOffset:]
+-[CPTAnimationPeriod .cxx_destruct]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:from:to:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:from:to:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:from:to:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPoint:toPoint:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPoint:toPoint:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPoint:toPoint:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromSize:toSize:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromSize:toSize:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromSize:toSize:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromRect:toRect:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromRect:toRect:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromRect:toRect:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromDecimal:toDecimal:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromDecimal:toDecimal:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromDecimal:toDecimal:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromNumber:toNumber:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromNumber:toNumber:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromNumber:toNumber:duration:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPlotRange:toPlotRange:duration:withDelay:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPlotRange:toPlotRange:duration:animationCurve:delegate:]
++[CPTAnimation(CPTAnimationPeriodAdditions) animate:property:fromPlotRange:toPlotRange:duration:]
+_OBJC_IVAR_$_CPTAnimationPeriod.startValue
+_OBJC_IVAR_$_CPTAnimationPeriod.endValue
+_OBJC_IVAR_$_CPTAnimationPeriod.valueClass
+_OBJC_IVAR_$_CPTAnimationPeriod.duration
+_OBJC_IVAR_$_CPTAnimationPeriod.delay
+_OBJC_IVAR_$_CPTAnimationPeriod.startOffset
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimationPeriod.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimationPeriod.h
++[CPTTextStyle(CPTPlatformSpecificTextStyleExtensions) textStyleWithAttributes:]
+-[CPTTextStyle(CPTPlatformSpecificTextStyleExtensions) attributes]
++[CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions) textStyleWithAttributes:]
+-[NSString(CPTTextStyleExtensions) sizeWithTextStyle:]
+-[NSString(CPTTextStyleExtensions) drawInRect:withTextStyle:inContext:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTTextStylePlatformSpecific.m
+-[CPTBorderLayer initWithFrame:]
+-[CPTBorderLayer initWithLayer:]
+-[CPTBorderLayer encodeWithCoder:]
+-[CPTBorderLayer initWithCoder:]
++[CPTBorderLayer supportsSecureCoding]
+-[CPTBorderLayer renderAsVectorInContext:]
+-[CPTBorderLayer layoutSublayers]
+-[CPTBorderLayer sublayersExcludedFromAutomaticLayout]
+-[CPTBorderLayer setMaskedLayer:]
+-[CPTBorderLayer setBounds:]
+-[CPTBorderLayer maskedLayer]
+-[CPTBorderLayer .cxx_destruct]
+_OBJC_IVAR_$_CPTBorderLayer.maskedLayer
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTBorderLayer.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTBorderLayer.h
+-[CPTLegendEntry init]
+-[CPTLegendEntry encodeWithCoder:]
+-[CPTLegendEntry initWithCoder:]
++[CPTLegendEntry supportsSecureCoding]
+-[CPTLegendEntry drawTitleInRect:inContext:scale:]
+-[CPTLegendEntry title]
+-[CPTLegendEntry attributedTitle]
+-[CPTLegendEntry titleSize]
+-[CPTLegendEntry plot]
+-[CPTLegendEntry setPlot:]
+-[CPTLegendEntry index]
+-[CPTLegendEntry setIndex:]
+-[CPTLegendEntry row]
+-[CPTLegendEntry setRow:]
+-[CPTLegendEntry column]
+-[CPTLegendEntry setColumn:]
+-[CPTLegendEntry textStyle]
+-[CPTLegendEntry setTextStyle:]
+-[CPTLegendEntry .cxx_destruct]
+_OBJC_IVAR_$_CPTLegendEntry.plot
+_OBJC_IVAR_$_CPTLegendEntry.index
+_OBJC_IVAR_$_CPTLegendEntry.row
+_OBJC_IVAR_$_CPTLegendEntry.column
+_OBJC_IVAR_$_CPTLegendEntry.textStyle
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLegendEntry.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLegendEntry.h
+-[CPTTradingRangePlot initWithFrame:]
+-[CPTTradingRangePlot initWithLayer:]
+-[CPTTradingRangePlot encodeWithCoder:]
+-[CPTTradingRangePlot initWithCoder:]
++[CPTTradingRangePlot supportsSecureCoding]
+-[CPTTradingRangePlot reloadDataInIndexRange:]
+-[CPTTradingRangePlot reloadPlotDataInIndexRange:]
+-[CPTTradingRangePlot reloadBarFills]
+-[CPTTradingRangePlot reloadBarFillsInIndexRange:]
+-[CPTTradingRangePlot reloadBarLineStyles]
+-[CPTTradingRangePlot reloadBarLineStylesInIndexRange:]
+-[CPTTradingRangePlot renderAsVectorInContext:]
+-[CPTTradingRangePlot drawCandleStickInContext:atIndex:x:open:close:high:low:alignPoints:]
+-[CPTTradingRangePlot drawOHLCInContext:atIndex:x:open:close:high:low:alignPoints:]
+-[CPTTradingRangePlot drawSwatchForLegend:atIndex:inRect:inContext:]
+-[CPTTradingRangePlot increaseFillForIndex:]
+-[CPTTradingRangePlot decreaseFillForIndex:]
+-[CPTTradingRangePlot lineStyleForIndex:]
+-[CPTTradingRangePlot increaseLineStyleForIndex:]
+-[CPTTradingRangePlot decreaseLineStyleForIndex:]
++[CPTTradingRangePlot needsDisplayForKey:]
+___42+[CPTTradingRangePlot needsDisplayForKey:]_block_invoke
+-[CPTTradingRangePlot numberOfFields]
+-[CPTTradingRangePlot fieldIdentifiers]
+-[CPTTradingRangePlot fieldIdentifiersForCoordinate:]
+-[CPTTradingRangePlot coordinateForFieldIdentifier:]
+-[CPTTradingRangePlot positionLabelAnnotation:forIndex:]
+-[CPTTradingRangePlot dataIndexFromInteractionPoint:]
+-[CPTTradingRangePlot pointingDeviceDownEvent:atPoint:]
+-[CPTTradingRangePlot pointingDeviceUpEvent:atPoint:]
+-[CPTTradingRangePlot setPlotStyle:]
+-[CPTTradingRangePlot setLineStyle:]
+-[CPTTradingRangePlot setIncreaseLineStyle:]
+-[CPTTradingRangePlot setDecreaseLineStyle:]
+-[CPTTradingRangePlot setIncreaseFill:]
+-[CPTTradingRangePlot setDecreaseFill:]
+-[CPTTradingRangePlot setBarWidth:]
+-[CPTTradingRangePlot setStickLength:]
+-[CPTTradingRangePlot setBarCornerRadius:]
+-[CPTTradingRangePlot setShowBarBorder:]
+-[CPTTradingRangePlot setXValues:]
+-[CPTTradingRangePlot xValues]
+-[CPTTradingRangePlot openValues]
+-[CPTTradingRangePlot setOpenValues:]
+-[CPTTradingRangePlot highValues]
+-[CPTTradingRangePlot setHighValues:]
+-[CPTTradingRangePlot lowValues]
+-[CPTTradingRangePlot setLowValues:]
+-[CPTTradingRangePlot closeValues]
+-[CPTTradingRangePlot setCloseValues:]
+-[CPTTradingRangePlot increaseFills]
+-[CPTTradingRangePlot setIncreaseFills:]
+-[CPTTradingRangePlot decreaseFills]
+-[CPTTradingRangePlot setDecreaseFills:]
+-[CPTTradingRangePlot lineStyles]
+-[CPTTradingRangePlot setLineStyles:]
+-[CPTTradingRangePlot increaseLineStyles]
+-[CPTTradingRangePlot setIncreaseLineStyles:]
+-[CPTTradingRangePlot decreaseLineStyles]
+-[CPTTradingRangePlot setDecreaseLineStyles:]
+-[CPTTradingRangePlot lineStyle]
+-[CPTTradingRangePlot increaseLineStyle]
+-[CPTTradingRangePlot decreaseLineStyle]
+-[CPTTradingRangePlot increaseFill]
+-[CPTTradingRangePlot decreaseFill]
+-[CPTTradingRangePlot plotStyle]
+-[CPTTradingRangePlot barWidth]
+-[CPTTradingRangePlot stickLength]
+-[CPTTradingRangePlot barCornerRadius]
+-[CPTTradingRangePlot showBarBorder]
+-[CPTTradingRangePlot pointingDeviceDownIndex]
+-[CPTTradingRangePlot setPointingDeviceDownIndex:]
+-[CPTTradingRangePlot .cxx_destruct]
+_OBJC_IVAR_$_CPTTradingRangePlot.plotStyle
+_OBJC_IVAR_$_CPTTradingRangePlot.lineStyle
+_OBJC_IVAR_$_CPTTradingRangePlot.increaseLineStyle
+_OBJC_IVAR_$_CPTTradingRangePlot.decreaseLineStyle
+_OBJC_IVAR_$_CPTTradingRangePlot.increaseFill
+_OBJC_IVAR_$_CPTTradingRangePlot.decreaseFill
+_OBJC_IVAR_$_CPTTradingRangePlot.barWidth
+_OBJC_IVAR_$_CPTTradingRangePlot.stickLength
+_OBJC_IVAR_$_CPTTradingRangePlot.barCornerRadius
+_OBJC_IVAR_$_CPTTradingRangePlot.showBarBorder
+_OBJC_IVAR_$_CPTTradingRangePlot.pointingDeviceDownIndex
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTradingRangePlot.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTradingRangePlot.h
+__42+[CPTTradingRangePlot needsDisplayForKey:]_block_invoke
+-[CPTTextLayer initWithText:style:]
+-[CPTTextLayer initWithText:]
+-[CPTTextLayer initWithAttributedText:]
+-[CPTTextLayer initWithLayer:]
+-[CPTTextLayer initWithFrame:]
+-[CPTTextLayer encodeWithCoder:]
+-[CPTTextLayer initWithCoder:]
++[CPTTextLayer supportsSecureCoding]
+-[CPTTextLayer setText:]
+-[CPTTextLayer setTextStyle:]
+-[CPTTextLayer setAttributedText:]
+-[CPTTextLayer setMaximumSize:]
+-[CPTTextLayer setShadow:]
+-[CPTTextLayer setPaddingLeft:]
+-[CPTTextLayer setPaddingRight:]
+-[CPTTextLayer setPaddingTop:]
+-[CPTTextLayer setPaddingBottom:]
+-[CPTTextLayer sizeThatFits]
+-[CPTTextLayer sizeToFit]
+-[CPTTextLayer renderAsVectorInContext:]
+-[CPTTextLayer description]
+-[CPTTextLayer text]
+-[CPTTextLayer textStyle]
+-[CPTTextLayer attributedText]
+-[CPTTextLayer maximumSize]
+-[CPTTextLayer inTextUpdate]
+-[CPTTextLayer setInTextUpdate:]
+-[CPTTextLayer .cxx_destruct]
+_OBJC_IVAR_$_CPTTextLayer.textStyle
+_OBJC_IVAR_$_CPTTextLayer.text
+_OBJC_IVAR_$_CPTTextLayer.attributedText
+_OBJC_IVAR_$_CPTTextLayer.maximumSize
+_OBJC_IVAR_$_CPTTextLayer.inTextUpdate
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTextLayer.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTextLayer.h
+-[_CPTConstraintsRelative initWithRelativeOffset:]
+-[_CPTConstraintsRelative isEqualToConstraint:]
+-[_CPTConstraintsRelative positionForLowerBound:upperBound:]
+-[_CPTConstraintsRelative copyWithZone:]
+-[_CPTConstraintsRelative classForCoder]
+-[_CPTConstraintsRelative encodeWithCoder:]
+-[_CPTConstraintsRelative initWithCoder:]
++[_CPTConstraintsRelative supportsSecureCoding]
+-[_CPTConstraintsRelative offset]
+-[_CPTConstraintsRelative setOffset:]
+_OBJC_IVAR_$__CPTConstraintsRelative.offset
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTConstraintsRelative.m
+__tg_fma
+-[CPTAnnotationHostLayer initWithFrame:]
+-[CPTAnnotationHostLayer initWithLayer:]
+-[CPTAnnotationHostLayer encodeWithCoder:]
+-[CPTAnnotationHostLayer initWithCoder:]
++[CPTAnnotationHostLayer supportsSecureCoding]
+-[CPTAnnotationHostLayer annotations]
+-[CPTAnnotationHostLayer addAnnotation:]
+-[CPTAnnotationHostLayer removeAnnotation:]
+-[CPTAnnotationHostLayer removeAllAnnotations]
+-[CPTAnnotationHostLayer sublayersExcludedFromAutomaticLayout]
+-[CPTAnnotationHostLayer layoutSublayers]
+-[CPTAnnotationHostLayer pointingDeviceDownEvent:atPoint:]
+-[CPTAnnotationHostLayer pointingDeviceUpEvent:atPoint:]
+-[CPTAnnotationHostLayer pointingDeviceDraggedEvent:atPoint:]
+-[CPTAnnotationHostLayer pointingDeviceCancelledEvent:]
+-[CPTAnnotationHostLayer mutableAnnotations]
+-[CPTAnnotationHostLayer setMutableAnnotations:]
+-[CPTAnnotationHostLayer .cxx_destruct]
+_OBJC_IVAR_$_CPTAnnotationHostLayer.mutableAnnotations
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnnotationHostLayer.m
+-[CPTAnimationOperation initWithAnimationPeriod:animationCurve:object:getter:setter:]
+-[CPTAnimationOperation init]
+-[CPTAnimationOperation description]
+-[CPTAnimationOperation period]
+-[CPTAnimationOperation setPeriod:]
+-[CPTAnimationOperation animationCurve]
+-[CPTAnimationOperation setAnimationCurve:]
+-[CPTAnimationOperation boundObject]
+-[CPTAnimationOperation setBoundObject:]
+-[CPTAnimationOperation boundGetter]
+-[CPTAnimationOperation setBoundGetter:]
+-[CPTAnimationOperation boundSetter]
+-[CPTAnimationOperation setBoundSetter:]
+-[CPTAnimationOperation delegate]
+-[CPTAnimationOperation setDelegate:]
+-[CPTAnimationOperation isCanceled]
+-[CPTAnimationOperation setCanceled:]
+-[CPTAnimationOperation identifier]
+-[CPTAnimationOperation setIdentifier:]
+-[CPTAnimationOperation userInfo]
+-[CPTAnimationOperation setUserInfo:]
+-[CPTAnimationOperation .cxx_destruct]
+_OBJC_IVAR_$_CPTAnimationOperation.period
+_OBJC_IVAR_$_CPTAnimationOperation.animationCurve
+_OBJC_IVAR_$_CPTAnimationOperation.boundObject
+_OBJC_IVAR_$_CPTAnimationOperation.boundGetter
+_OBJC_IVAR_$_CPTAnimationOperation.boundSetter
+_OBJC_IVAR_$_CPTAnimationOperation.delegate
+_OBJC_IVAR_$_CPTAnimationOperation.canceled
+_OBJC_IVAR_$_CPTAnimationOperation.identifier
+_OBJC_IVAR_$_CPTAnimationOperation.userInfo
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimationOperation.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnimationOperation.h
+-[_CPTFillGradient initWithGradient:]
+-[_CPTFillGradient fillRect:inContext:]
+-[_CPTFillGradient fillPathInContext:]
+-[_CPTFillGradient isOpaque]
+-[_CPTFillGradient copyWithZone:]
+-[_CPTFillGradient classForCoder]
+-[_CPTFillGradient encodeWithCoder:]
+-[_CPTFillGradient initWithCoder:]
++[_CPTFillGradient supportsSecureCoding]
+-[_CPTFillGradient fillGradient]
+-[_CPTFillGradient setFillGradient:]
+-[_CPTFillGradient .cxx_destruct]
+_OBJC_IVAR_$__CPTFillGradient.fillGradient
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTFillGradient.m
+-[CPTMaskLayer initWithFrame:]
+-[CPTMaskLayer renderAsVectorInContext:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTMaskLayer.m
+-[CPTCalendarFormatter init]
+-[CPTCalendarFormatter initWithDateFormatter:]
+-[CPTCalendarFormatter encodeWithCoder:]
+-[CPTCalendarFormatter initWithCoder:]
+-[CPTCalendarFormatter copyWithZone:]
+-[CPTCalendarFormatter stringForObjectValue:]
+-[CPTCalendarFormatter dateFormatter]
+-[CPTCalendarFormatter setDateFormatter:]
+-[CPTCalendarFormatter referenceDate]
+-[CPTCalendarFormatter setReferenceDate:]
+-[CPTCalendarFormatter referenceCalendar]
+-[CPTCalendarFormatter setReferenceCalendar:]
+-[CPTCalendarFormatter referenceCalendarUnit]
+-[CPTCalendarFormatter setReferenceCalendarUnit:]
+-[CPTCalendarFormatter .cxx_destruct]
+_OBJC_IVAR_$_CPTCalendarFormatter.dateFormatter
+_OBJC_IVAR_$_CPTCalendarFormatter.referenceDate
+_OBJC_IVAR_$_CPTCalendarFormatter.referenceCalendar
+_OBJC_IVAR_$_CPTCalendarFormatter.referenceCalendarUnit
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTCalendarFormatter.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTCalendarFormatter.h
+-[CPTAnnotation init]
+-[CPTAnnotation encodeWithCoder:]
+-[CPTAnnotation initWithCoder:]
++[CPTAnnotation supportsSecureCoding]
+-[CPTAnnotation description]
+-[CPTAnnotation setContentLayer:]
+-[CPTAnnotation setAnnotationHostLayer:]
+-[CPTAnnotation setDisplacement:]
+-[CPTAnnotation setContentAnchorPoint:]
+-[CPTAnnotation setRotation:]
+-[CPTAnnotation contentLayer]
+-[CPTAnnotation annotationHostLayer]
+-[CPTAnnotation displacement]
+-[CPTAnnotation contentAnchorPoint]
+-[CPTAnnotation rotation]
+-[CPTAnnotation .cxx_destruct]
+-[CPTAnnotation(AbstractMethods) positionContentLayer]
+_OBJC_IVAR_$_CPTAnnotation.annotationHostLayer
+_OBJC_IVAR_$_CPTAnnotation.contentLayer
+_OBJC_IVAR_$_CPTAnnotation.displacement
+_OBJC_IVAR_$_CPTAnnotation.contentAnchorPoint
+_OBJC_IVAR_$_CPTAnnotation.rotation
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnnotation.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAnnotation.h
+__CGPointEqualToPoint
+-[_CPTFillColor initWithColor:]
+-[_CPTFillColor fillRect:inContext:]
+-[_CPTFillColor fillPathInContext:]
+-[_CPTFillColor isOpaque]
+-[_CPTFillColor cgColor]
+-[_CPTFillColor copyWithZone:]
+-[_CPTFillColor classForCoder]
+-[_CPTFillColor encodeWithCoder:]
+-[_CPTFillColor initWithCoder:]
++[_CPTFillColor supportsSecureCoding]
+-[_CPTFillColor fillColor]
+-[_CPTFillColor setFillColor:]
+-[_CPTFillColor .cxx_destruct]
+_OBJC_IVAR_$__CPTFillColor.fillColor
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTFillColor.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationTimingFunctions.m
+CPTAnimationTimingFunctionQuinticInOut
+CPTAnimationTimingFunctionQuinticOut
+CPTAnimationTimingFunctionQuinticIn
+CPTAnimationTimingFunctionQuarticInOut
+CPTAnimationTimingFunctionQuarticOut
+CPTAnimationTimingFunctionQuarticIn
+CPTAnimationTimingFunctionQuadraticInOut
+CPTAnimationTimingFunctionQuadraticOut
+CPTAnimationTimingFunctionQuadraticIn
+CPTAnimationTimingFunctionCubicInOut
+CPTAnimationTimingFunctionCubicOut
+CPTAnimationTimingFunctionCubicIn
+CPTAnimationTimingFunctionSinusoidalInOut
+CPTAnimationTimingFunctionSinusoidalOut
+CPTAnimationTimingFunctionSinusoidalIn
+CPTAnimationTimingFunctionExponentialInOut
+CPTAnimationTimingFunctionExponentialOut
+CPTAnimationTimingFunctionExponentialIn
+CPTAnimationTimingFunctionElasticInOut
+CPTAnimationTimingFunctionElasticOut
+CPTAnimationTimingFunctionElasticIn
+CPTAnimationTimingFunctionCircularInOut
+CPTAnimationTimingFunctionCircularOut
+CPTAnimationTimingFunctionCircularIn
+CPTAnimationTimingFunctionBounceInOut
+CPTAnimationTimingFunctionBounceIn
+CPTAnimationTimingFunctionBounceOut
+CPTAnimationTimingFunctionBackInOut
+CPTAnimationTimingFunctionBackOut
+CPTAnimationTimingFunctionBackIn
+CPTAnimationTimingFunctionLinear
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutableLineStyle.m
+-[NSDecimalNumber(CPTExtensions) decimalNumber]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/NSDecimalNumberExtensions.m
++[CPTLegend legendWithPlots:]
++[CPTLegend legendWithGraph:]
+-[CPTLegend initWithFrame:]
+-[CPTLegend initWithPlots:]
+-[CPTLegend initWithGraph:]
+-[CPTLegend initWithLayer:]
+-[CPTLegend dealloc]
+-[CPTLegend encodeWithCoder:]
+-[CPTLegend initWithCoder:]
++[CPTLegend supportsSecureCoding]
+-[CPTLegend renderAsVectorInContext:]
++[CPTLegend needsDisplayForKey:]
+___32+[CPTLegend needsDisplayForKey:]_block_invoke
+-[CPTLegend setLayoutChanged]
+-[CPTLegend layoutSublayers]
+-[CPTLegend recalculateLayout]
+-[CPTLegend allPlots]
+-[CPTLegend plotAtIndex:]
+-[CPTLegend plotWithIdentifier:]
+-[CPTLegend addPlot:]
+-[CPTLegend insertPlot:atIndex:]
+-[CPTLegend removePlot:]
+-[CPTLegend removePlotWithIdentifier:]
+-[CPTLegend removeLegendEntriesForPlot:]
+-[CPTLegend legendNeedsRedraw:]
+-[CPTLegend legendNeedsLayout:]
+-[CPTLegend legendNeedsReloadEntries:]
+-[CPTLegend legendEntryForInteractionPoint:row:col:]
+-[CPTLegend pointingDeviceDownEvent:atPoint:]
+-[CPTLegend pointingDeviceUpEvent:atPoint:]
+-[CPTLegend description]
+-[CPTLegend setTextStyle:]
+-[CPTLegend setSwatchSize:]
+-[CPTLegend swatchSize]
+-[CPTLegend setSwatchBorderLineStyle:]
+-[CPTLegend setSwatchCornerRadius:]
+-[CPTLegend setSwatchFill:]
+-[CPTLegend setEntryBorderLineStyle:]
+-[CPTLegend setEntryCornerRadius:]
+-[CPTLegend setEntryFill:]
+-[CPTLegend setEntryPaddingLeft:]
+-[CPTLegend setEntryPaddingTop:]
+-[CPTLegend setEntryPaddingRight:]
+-[CPTLegend setEntryPaddingBottom:]
+-[CPTLegend setNumberOfRows:]
+-[CPTLegend setNumberOfColumns:]
+-[CPTLegend setEqualRows:]
+-[CPTLegend setEqualColumns:]
+-[CPTLegend setRowHeights:]
+-[CPTLegend setColumnWidths:]
+-[CPTLegend setColumnMargin:]
+-[CPTLegend setRowMargin:]
+-[CPTLegend setTitleOffset:]
+-[CPTLegend setSwatchLayout:]
+-[CPTLegend setLayoutChanged:]
+-[CPTLegend setPaddingLeft:]
+-[CPTLegend setPaddingTop:]
+-[CPTLegend setPaddingRight:]
+-[CPTLegend setPaddingBottom:]
+-[CPTLegend setBorderLineStyle:]
+-[CPTLegend rowHeightsThatFit]
+-[CPTLegend columnWidthsThatFit]
+-[CPTLegend textStyle]
+-[CPTLegend swatchBorderLineStyle]
+-[CPTLegend swatchCornerRadius]
+-[CPTLegend swatchFill]
+-[CPTLegend entryBorderLineStyle]
+-[CPTLegend entryCornerRadius]
+-[CPTLegend entryFill]
+-[CPTLegend entryPaddingLeft]
+-[CPTLegend entryPaddingTop]
+-[CPTLegend entryPaddingRight]
+-[CPTLegend entryPaddingBottom]
+-[CPTLegend numberOfRows]
+-[CPTLegend numberOfColumns]
+-[CPTLegend equalRows]
+-[CPTLegend equalColumns]
+-[CPTLegend rowHeights]
+-[CPTLegend setRowHeightsThatFit:]
+-[CPTLegend columnWidths]
+-[CPTLegend setColumnWidthsThatFit:]
+-[CPTLegend columnMargin]
+-[CPTLegend rowMargin]
+-[CPTLegend titleOffset]
+-[CPTLegend swatchLayout]
+-[CPTLegend plots]
+-[CPTLegend setPlots:]
+-[CPTLegend legendEntries]
+-[CPTLegend setLegendEntries:]
+-[CPTLegend layoutChanged]
+-[CPTLegend pointingDeviceDownEntry]
+-[CPTLegend setPointingDeviceDownEntry:]
+-[CPTLegend .cxx_destruct]
+_OBJC_IVAR_$_CPTLegend.plots
+_OBJC_IVAR_$_CPTLegend.legendEntries
+_OBJC_IVAR_$_CPTLegend.layoutChanged
+_OBJC_IVAR_$_CPTLegend.textStyle
+_OBJC_IVAR_$_CPTLegend.swatchSize
+_OBJC_IVAR_$_CPTLegend.swatchBorderLineStyle
+_OBJC_IVAR_$_CPTLegend.swatchCornerRadius
+_OBJC_IVAR_$_CPTLegend.swatchFill
+_OBJC_IVAR_$_CPTLegend.entryBorderLineStyle
+_OBJC_IVAR_$_CPTLegend.entryCornerRadius
+_OBJC_IVAR_$_CPTLegend.entryFill
+_OBJC_IVAR_$_CPTLegend.entryPaddingLeft
+_OBJC_IVAR_$_CPTLegend.entryPaddingTop
+_OBJC_IVAR_$_CPTLegend.entryPaddingRight
+_OBJC_IVAR_$_CPTLegend.entryPaddingBottom
+_OBJC_IVAR_$_CPTLegend.numberOfRows
+_OBJC_IVAR_$_CPTLegend.numberOfColumns
+_OBJC_IVAR_$_CPTLegend.equalRows
+_OBJC_IVAR_$_CPTLegend.equalColumns
+_OBJC_IVAR_$_CPTLegend.rowHeights
+_OBJC_IVAR_$_CPTLegend.rowHeightsThatFit
+_OBJC_IVAR_$_CPTLegend.columnWidths
+_OBJC_IVAR_$_CPTLegend.columnWidthsThatFit
+_OBJC_IVAR_$_CPTLegend.columnMargin
+_OBJC_IVAR_$_CPTLegend.rowMargin
+_OBJC_IVAR_$_CPTLegend.titleOffset
+_OBJC_IVAR_$_CPTLegend.swatchLayout
+_OBJC_IVAR_$_CPTLegend.pointingDeviceDownEntry
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLegend.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLegend.h
+__32+[CPTLegend needsDisplayForKey:]_block_invoke
+-[CPTAxisLabelGroup display]
+-[CPTAxisLabelGroup renderAsVectorInContext:]
+-[CPTAxisLabelGroup layoutSublayers]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxisLabelGroup.m
++[CPTFill fillWithColor:]
++[CPTFill fillWithGradient:]
++[CPTFill fillWithImage:]
+-[CPTFill initWithColor:]
+-[CPTFill initWithGradient:]
+-[CPTFill initWithImage:]
+-[CPTFill copyWithZone:]
+-[CPTFill encodeWithCoder:]
+-[CPTFill initWithCoder:]
++[CPTFill supportsSecureCoding]
+-[CPTFill(AbstractMethods) isOpaque]
+-[CPTFill(AbstractMethods) cgColor]
+-[CPTFill(AbstractMethods) fillRect:inContext:]
+-[CPTFill(AbstractMethods) fillPathInContext:]
+-[CPTFill(AbstractMethods) debugQuickLookObject]
+___48-[CPTFill(AbstractMethods) debugQuickLookObject]_block_invoke
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTFill.m
+__48-[CPTFill(AbstractMethods) debugQuickLookObject]_block_invoke
+-[CPTMutableNumericData(TypeConversion) convertToType:sampleBytes:byteOrder:]
+-[CPTMutableNumericData(TypeConversion) setDataTypeFormat:]
+-[CPTMutableNumericData(TypeConversion) setSampleBytes:]
+-[CPTMutableNumericData(TypeConversion) setByteOrder:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutableNumericData+TypeConversion.m
+-[CPTRangePlot initWithFrame:]
+-[CPTRangePlot initWithLayer:]
+-[CPTRangePlot encodeWithCoder:]
+-[CPTRangePlot initWithCoder:]
++[CPTRangePlot supportsSecureCoding]
+-[CPTRangePlot calculatePointsToDraw:numberOfPoints:forPlotSpace:includeVisiblePointsOnly:]
+___91-[CPTRangePlot calculatePointsToDraw:numberOfPoints:forPlotSpace:includeVisiblePointsOnly:]_block_invoke
+___91-[CPTRangePlot calculatePointsToDraw:numberOfPoints:forPlotSpace:includeVisiblePointsOnly:]_block_invoke.77
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[CPTRangePlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]
+___70-[CPTRangePlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke
+___copy_helper_block_.87
+___destroy_helper_block_.88
+___70-[CPTRangePlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke.90
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[CPTRangePlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]
+___85-[CPTRangePlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke
+___85-[CPTRangePlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke_2
+-[CPTRangePlot extremeDrawnPointIndexForFlags:numberOfPoints:extremeNumIsLowerBound:]
+-[CPTRangePlot reloadDataInIndexRange:]
+-[CPTRangePlot reloadPlotDataInIndexRange:]
+-[CPTRangePlot reloadBarLineStyles]
+-[CPTRangePlot reloadBarLineStylesInIndexRange:]
+-[CPTRangePlot renderAsVectorInContext:]
+-[CPTRangePlot drawRangeInContext:lineStyle:viewPoint:halfGapSize:halfBarWidth:alignPoints:]
+-[CPTRangePlot drawSwatchForLegend:atIndex:inRect:inContext:]
+-[CPTRangePlot barLineStyleForIndex:]
++[CPTRangePlot needsDisplayForKey:]
+___35+[CPTRangePlot needsDisplayForKey:]_block_invoke
+-[CPTRangePlot numberOfFields]
+-[CPTRangePlot fieldIdentifiers]
+-[CPTRangePlot fieldIdentifiersForCoordinate:]
+-[CPTRangePlot coordinateForFieldIdentifier:]
+-[CPTRangePlot positionLabelAnnotation:forIndex:]
+-[CPTRangePlot dataIndexFromInteractionPoint:]
+-[CPTRangePlot pointingDeviceDownEvent:atPoint:]
+-[CPTRangePlot pointingDeviceUpEvent:atPoint:]
+-[CPTRangePlot setBarLineStyle:]
+-[CPTRangePlot setAreaFill:]
+-[CPTRangePlot setAreaBorderLineStyle:]
+-[CPTRangePlot setBarWidth:]
+-[CPTRangePlot setGapHeight:]
+-[CPTRangePlot setGapWidth:]
+-[CPTRangePlot setXValues:]
+-[CPTRangePlot xValues]
+-[CPTRangePlot setYValues:]
+-[CPTRangePlot yValues]
+-[CPTRangePlot highValues]
+-[CPTRangePlot setHighValues:]
+-[CPTRangePlot lowValues]
+-[CPTRangePlot setLowValues:]
+-[CPTRangePlot leftValues]
+-[CPTRangePlot setLeftValues:]
+-[CPTRangePlot rightValues]
+-[CPTRangePlot setRightValues:]
+-[CPTRangePlot barLineStyles]
+-[CPTRangePlot setBarLineStyles:]
+-[CPTRangePlot areaFill]
+-[CPTRangePlot areaBorderLineStyle]
+-[CPTRangePlot barLineStyle]
+-[CPTRangePlot barWidth]
+-[CPTRangePlot gapHeight]
+-[CPTRangePlot gapWidth]
+-[CPTRangePlot pointingDeviceDownIndex]
+-[CPTRangePlot setPointingDeviceDownIndex:]
+-[CPTRangePlot .cxx_destruct]
+_OBJC_IVAR_$_CPTRangePlot.barLineStyle
+_OBJC_IVAR_$_CPTRangePlot.areaFill
+_OBJC_IVAR_$_CPTRangePlot.areaBorderLineStyle
+_OBJC_IVAR_$_CPTRangePlot.pointingDeviceDownIndex
+_OBJC_IVAR_$_CPTRangePlot.barWidth
+_OBJC_IVAR_$_CPTRangePlot.gapHeight
+_OBJC_IVAR_$_CPTRangePlot.gapWidth
+___block_descriptor_tmp.82
+___block_descriptor_tmp.89
+___block_descriptor_tmp.95
+___block_descriptor_tmp.98
+___block_descriptor_tmp.100
+___block_descriptor_tmp.208
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTRangePlot.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTRangePlot.h
+__35+[CPTRangePlot needsDisplayForKey:]_block_invoke
+__85-[CPTRangePlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke_2
+__85-[CPTRangePlot alignViewPointsToUserSpace:withContext:drawPointFlags:numberOfPoints:]_block_invoke
+__70-[CPTRangePlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke.90
+__70-[CPTRangePlot calculateViewPoints:withDrawPointFlags:numberOfPoints:]_block_invoke
+__91-[CPTRangePlot calculatePointsToDraw:numberOfPoints:forPlotSpace:includeVisiblePointsOnly:]_block_invoke.77
+__91-[CPTRangePlot calculatePointsToDraw:numberOfPoints:forPlotSpace:includeVisiblePointsOnly:]_block_invoke
+-[CPTGraph initWithFrame:]
+-[CPTGraph initWithLayer:]
+-[CPTGraph dealloc]
+-[CPTGraph encodeWithCoder:]
+-[CPTGraph initWithCoder:]
++[CPTGraph supportsSecureCoding]
+-[CPTGraph layoutAndRenderInContext:]
++[CPTGraph needsDisplayForKey:]
+___31+[CPTGraph needsDisplayForKey:]_block_invoke
+-[CPTGraph reloadData]
+-[CPTGraph reloadDataIfNeeded]
+-[CPTGraph allPlots]
+-[CPTGraph plotAtIndex:]
+-[CPTGraph plotWithIdentifier:]
+-[CPTGraph addPlot:]
+-[CPTGraph addPlot:toPlotSpace:]
+-[CPTGraph removePlot:]
+-[CPTGraph insertPlot:atIndex:]
+-[CPTGraph insertPlot:atIndex:intoPlotSpace:]
+-[CPTGraph removePlotWithIdentifier:]
+-[CPTGraph defaultPlotSpace]
+-[CPTGraph allPlotSpaces]
+-[CPTGraph plotSpaceAtIndex:]
+-[CPTGraph plotSpaceWithIdentifier:]
+-[CPTGraph setPlotAreaFrame:]
+-[CPTGraph addPlotSpace:]
+-[CPTGraph removePlotSpace:]
+-[CPTGraph plotSpaceMappingDidChange:]
+-[CPTGraph axisSet]
+-[CPTGraph setAxisSet:]
+-[CPTGraph applyTheme:]
+-[CPTGraph setLegend:]
+-[CPTGraph setLegendAnchor:]
+-[CPTGraph setLegendDisplacement:]
+-[CPTGraph contentAnchorForRectAnchor:]
+-[CPTGraph setPaddingLeft:]
+-[CPTGraph setPaddingRight:]
+-[CPTGraph setPaddingTop:]
+-[CPTGraph setPaddingBottom:]
+-[CPTGraph topDownLayerOrder]
+-[CPTGraph setTopDownLayerOrder:]
+-[CPTGraph setTitle:]
+-[CPTGraph setAttributedTitle:]
+-[CPTGraph setTitleTextStyle:]
+-[CPTGraph setTitleDisplacement:]
+-[CPTGraph setTitlePlotAreaFrameAnchor:]
+-[CPTGraph pointingDeviceDownEvent:atPoint:]
+-[CPTGraph pointingDeviceUpEvent:atPoint:]
+-[CPTGraph pointingDeviceDraggedEvent:atPoint:]
+-[CPTGraph pointingDeviceCancelledEvent:]
+-[CPTGraph hostingView]
+-[CPTGraph setHostingView:]
+-[CPTGraph plotAreaFrame]
+-[CPTGraph plots]
+-[CPTGraph setPlots:]
+-[CPTGraph plotSpaces]
+-[CPTGraph setPlotSpaces:]
+-[CPTGraph title]
+-[CPTGraph attributedTitle]
+-[CPTGraph titleTextStyle]
+-[CPTGraph titlePlotAreaFrameAnchor]
+-[CPTGraph titleDisplacement]
+-[CPTGraph legend]
+-[CPTGraph legendAnchor]
+-[CPTGraph legendDisplacement]
+-[CPTGraph titleAnnotation]
+-[CPTGraph setTitleAnnotation:]
+-[CPTGraph legendAnnotation]
+-[CPTGraph setLegendAnnotation:]
+-[CPTGraph inTitleUpdate]
+-[CPTGraph setInTitleUpdate:]
+-[CPTGraph .cxx_destruct]
+-[CPTGraph(AbstractFactoryMethods) newPlotSpace]
+-[CPTGraph(AbstractFactoryMethods) newAxisSet]
+_OBJC_IVAR_$_CPTGraph.hostingView
+_OBJC_IVAR_$_CPTGraph.plots
+_OBJC_IVAR_$_CPTGraph.plotSpaces
+_OBJC_IVAR_$_CPTGraph.title
+_OBJC_IVAR_$_CPTGraph.attributedTitle
+_OBJC_IVAR_$_CPTGraph.titlePlotAreaFrameAnchor
+_OBJC_IVAR_$_CPTGraph.titleTextStyle
+_OBJC_IVAR_$_CPTGraph.titleDisplacement
+_OBJC_IVAR_$_CPTGraph.titleAnnotation
+_OBJC_IVAR_$_CPTGraph.legend
+_OBJC_IVAR_$_CPTGraph.legendAnnotation
+_OBJC_IVAR_$_CPTGraph.legendAnchor
+_OBJC_IVAR_$_CPTGraph.legendDisplacement
+_OBJC_IVAR_$_CPTGraph.inTitleUpdate
+_OBJC_IVAR_$_CPTGraph.plotAreaFrame
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGraph.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGraph.h
+__31+[CPTGraph needsDisplayForKey:]_block_invoke
+-[CPTMutablePlotRange unionPlotRange:]
+-[CPTMutablePlotRange intersectionPlotRange:]
+-[CPTMutablePlotRange expandRangeByFactor:]
+-[CPTMutablePlotRange shiftLocationToFitInRange:]
+-[CPTMutablePlotRange shiftEndToFitInRange:]
+-[CPTMutablePlotRange setLocation:]
+-[CPTMutablePlotRange setLength:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutablePlotRange.m
++[_CPTPlainWhiteTheme load]
++[_CPTPlainWhiteTheme name]
+-[_CPTPlainWhiteTheme applyThemeToBackground:]
+-[_CPTPlainWhiteTheme applyThemeToPlotArea:]
+-[_CPTPlainWhiteTheme applyThemeToAxisSet:]
+-[_CPTPlainWhiteTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTPlainWhiteTheme.m
+-[CPTGridLineGroup initWithFrame:]
+-[CPTGridLineGroup initWithLayer:]
+-[CPTGridLineGroup encodeWithCoder:]
+-[CPTGridLineGroup initWithCoder:]
++[CPTGridLineGroup supportsSecureCoding]
+-[CPTGridLineGroup renderAsVectorInContext:]
+-[CPTGridLineGroup setPlotArea:]
+-[CPTGridLineGroup plotArea]
+-[CPTGridLineGroup major]
+-[CPTGridLineGroup setMajor:]
+-[CPTGridLineGroup .cxx_destruct]
+_OBJC_IVAR_$_CPTGridLineGroup.plotArea
+_OBJC_IVAR_$_CPTGridLineGroup.major
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGridLineGroup.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGridLineGroup.h
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTNumericDataType.m
+CPTDataTypeEqualToDataType
+CPTDataTypeIsSupported
+CPTDataTypeStringFromDataType
+CPTDataTypeWithDataTypeString
+ByteOrderForDataTypeString
+SampleBytesForDataTypeString
+DataTypeForDataTypeString
+CPTDataType
+-[CPTPlot initWithFrame:]
+-[CPTPlot initWithLayer:]
+-[CPTPlot encodeWithCoder:]
+-[CPTPlot initWithCoder:]
++[CPTPlot supportsSecureCoding]
+-[CPTPlot drawInContext:]
++[CPTPlot needsDisplayForKey:]
+___30+[CPTPlot needsDisplayForKey:]_block_invoke
+-[CPTPlot layoutSublayers]
+-[CPTPlot numberOfRecords]
+-[CPTPlot setDataNeedsReloading]
+-[CPTPlot reloadData]
+-[CPTPlot reloadDataIfNeeded]
+-[CPTPlot reloadDataInIndexRange:]
+-[CPTPlot insertDataAtIndex:numberOfRecords:]
+-[CPTPlot deleteDataInIndexRange:]
+-[CPTPlot reloadPlotData]
+-[CPTPlot reloadPlotDataInIndexRange:]
+-[CPTPlot reloadDataLabels]
+-[CPTPlot reloadDataLabelsInIndexRange:]
++[CPTPlot nilData]
+___18+[CPTPlot nilData]_block_invoke
+-[CPTPlot numbersFromDataSourceForField:recordIndexRange:]
+-[CPTPlot loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:]
+-[CPTPlot cachedDataCount]
+-[CPTPlot cacheNumbers:forField:]
+-[CPTPlot cacheNumbers:forField:atRecordIndex:]
+-[CPTPlot numericDataForNumbers:]
+-[CPTPlot doublePrecisionCache]
+-[CPTPlot cachedNumbersForField:]
+-[CPTPlot cachedNumberForField:recordIndex:]
+-[CPTPlot cachedDoubleForField:recordIndex:]
+-[CPTPlot cachedDecimalForField:recordIndex:]
+-[CPTPlot setCachedDataType:]
+-[CPTPlot doubleDataType]
+___25-[CPTPlot doubleDataType]_block_invoke
+-[CPTPlot decimalDataType]
+___26-[CPTPlot decimalDataType]_block_invoke
+-[CPTPlot cachedArrayForKey:]
+-[CPTPlot cachedValueForKey:recordIndex:]
+-[CPTPlot cacheArray:forKey:]
+-[CPTPlot cacheArray:forKey:atRecordIndex:]
+-[CPTPlot plotRangeForField:]
+-[CPTPlot plotRangeForCoordinate:]
+-[CPTPlot plotRangeEnclosingField:]
+-[CPTPlot plotRangeEnclosingCoordinate:]
+-[CPTPlot setNeedsRelabel]
+-[CPTPlot relabel]
+-[CPTPlot relabelIndexRange:]
+-[CPTPlot updateContentAnchorForLabel:]
+-[CPTPlot repositionAllLabelAnnotations]
+-[CPTPlot numberOfLegendEntries]
+-[CPTPlot titleForLegendEntryAtIndex:]
+-[CPTPlot attributedTitleForLegendEntryAtIndex:]
+-[CPTPlot drawSwatchForLegend:atIndex:inRect:inContext:]
+-[CPTPlot pointingDeviceDownEvent:atPoint:]
+-[CPTPlot pointingDeviceUpEvent:atPoint:]
+-[CPTPlot dataLabels]
+-[CPTPlot setDataLabels:]
+-[CPTPlot setTitle:]
+-[CPTPlot setAttributedTitle:]
+-[CPTPlot setDataSource:]
+-[CPTPlot setDataNeedsReloading:]
+-[CPTPlot plotArea]
+-[CPTPlot setNeedsRelabel:]
+-[CPTPlot setShowLabels:]
+-[CPTPlot setLabelTextStyle:]
+-[CPTPlot setLabelOffset:]
+-[CPTPlot setLabelRotation:]
+-[CPTPlot setLabelFormatter:]
+-[CPTPlot setLabelShadow:]
+-[CPTPlot setCachePrecision:]
+-[CPTPlot setAlignsPointsToPixels:]
+-[CPTPlot setHidden:]
+-[CPTPlot dataSource]
+-[CPTPlot title]
+-[CPTPlot attributedTitle]
+-[CPTPlot plotSpace]
+-[CPTPlot setPlotSpace:]
+-[CPTPlot dataNeedsReloading]
+-[CPTPlot cachedData]
+-[CPTPlot setCachedData:]
+-[CPTPlot setCachedDataCount:]
+-[CPTPlot cachePrecision]
+-[CPTPlot needsRelabel]
+-[CPTPlot adjustLabelAnchors]
+-[CPTPlot setAdjustLabelAnchors:]
+-[CPTPlot showLabels]
+-[CPTPlot labelOffset]
+-[CPTPlot labelRotation]
+-[CPTPlot labelField]
+-[CPTPlot setLabelField:]
+-[CPTPlot labelTextStyle]
+-[CPTPlot labelFormatter]
+-[CPTPlot labelShadow]
+-[CPTPlot labelIndexRange]
+-[CPTPlot setLabelIndexRange:]
+-[CPTPlot labelAnnotations]
+-[CPTPlot setLabelAnnotations:]
+-[CPTPlot alignsPointsToPixels]
+-[CPTPlot drawLegendSwatchDecoration]
+-[CPTPlot setDrawLegendSwatchDecoration:]
+-[CPTPlot inTitleUpdate]
+-[CPTPlot setInTitleUpdate:]
+-[CPTPlot pointingDeviceDownLabelIndex]
+-[CPTPlot setPointingDeviceDownLabelIndex:]
+-[CPTPlot .cxx_destruct]
+-[CPTPlot(AbstractMethods) numberOfFields]
+-[CPTPlot(AbstractMethods) fieldIdentifiers]
+-[CPTPlot(AbstractMethods) fieldIdentifiersForCoordinate:]
+-[CPTPlot(AbstractMethods) coordinateForFieldIdentifier:]
+-[CPTPlot(AbstractMethods) positionLabelAnnotation:forIndex:]
+-[CPTPlot(AbstractMethods) dataIndexFromInteractionPoint:]
+_OBJC_IVAR_$_CPTPlot.cachedData
+_OBJC_IVAR_$_CPTPlot.cachedDataCount
+_OBJC_IVAR_$_CPTPlot.cachePrecision
+_OBJC_IVAR_$_CPTPlot.dataSource
+_OBJC_IVAR_$_CPTPlot.title
+_OBJC_IVAR_$_CPTPlot.attributedTitle
+_OBJC_IVAR_$_CPTPlot.plotSpace
+_OBJC_IVAR_$_CPTPlot.dataNeedsReloading
+_OBJC_IVAR_$_CPTPlot.needsRelabel
+_OBJC_IVAR_$_CPTPlot.adjustLabelAnchors
+_OBJC_IVAR_$_CPTPlot.showLabels
+_OBJC_IVAR_$_CPTPlot.labelOffset
+_OBJC_IVAR_$_CPTPlot.labelRotation
+_OBJC_IVAR_$_CPTPlot.labelField
+_OBJC_IVAR_$_CPTPlot.labelTextStyle
+_OBJC_IVAR_$_CPTPlot.labelFormatter
+_OBJC_IVAR_$_CPTPlot.labelShadow
+_OBJC_IVAR_$_CPTPlot.labelIndexRange
+_OBJC_IVAR_$_CPTPlot.labelAnnotations
+_OBJC_IVAR_$_CPTPlot.alignsPointsToPixels
+_OBJC_IVAR_$_CPTPlot.inTitleUpdate
+_OBJC_IVAR_$_CPTPlot.pointingDeviceDownLabelIndex
+_OBJC_IVAR_$_CPTPlot.drawLegendSwatchDecoration
+_nilData.nilObject
+_nilData.onceToken
+___block_descriptor_tmp.243
+___block_literal_global.244
+_doubleDataType.dataType
+_doubleDataType.onceToken
+___block_descriptor_tmp.351
+___block_literal_global.352
+_decimalDataType.dataType
+_decimalDataType.onceToken
+___block_descriptor_tmp.353
+___block_literal_global.354
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlot.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlot.h
+__26-[CPTPlot decimalDataType]_block_invoke
+__25-[CPTPlot doubleDataType]_block_invoke
+__18+[CPTPlot nilData]_block_invoke
+__30+[CPTPlot needsDisplayForKey:]_block_invoke
+-[CPTColor(CPTPlatformSpecificColorExtensions) uiColor]
+-[CPTLayer(CPTPlatformSpecificLayerExtensions) imageOfLayer]
+-[NSNumber(CPTPlatformSpecificNumberExtensions) isLessThan:]
+-[NSNumber(CPTPlatformSpecificNumberExtensions) isLessThanOrEqualTo:]
+-[NSNumber(CPTPlatformSpecificNumberExtensions) isGreaterThan:]
+-[NSNumber(CPTPlatformSpecificNumberExtensions) isGreaterThanOrEqualTo:]
+-[NSAttributedString(CPTPlatformSpecificAttributedStringExtensions) drawInRect:inContext:]
+-[NSAttributedString(CPTPlatformSpecificAttributedStringExtensions) sizeAsDrawn]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/iPhoneOnly/CPTPlatformSpecificCategories.m
++[CPTConstraints constraintWithLowerOffset:]
++[CPTConstraints constraintWithUpperOffset:]
++[CPTConstraints constraintWithRelativeOffset:]
+-[CPTConstraints initWithLowerOffset:]
+-[CPTConstraints initWithUpperOffset:]
+-[CPTConstraints initWithRelativeOffset:]
+-[CPTConstraints copyWithZone:]
+-[CPTConstraints encodeWithCoder:]
+-[CPTConstraints initWithCoder:]
++[CPTConstraints supportsSecureCoding]
+-[CPTConstraints(AbstractMethods) isEqualToConstraint:]
+-[CPTConstraints(AbstractMethods) positionForLowerBound:upperBound:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTConstraints.m
++[CPTTextStyle textStyle]
++[CPTTextStyle textStyleWithStyle:]
+-[CPTTextStyle init]
+-[CPTTextStyle encodeWithCoder:]
+-[CPTTextStyle initWithCoder:]
++[CPTTextStyle supportsSecureCoding]
+-[CPTTextStyle copyWithZone:]
+-[CPTTextStyle mutableCopyWithZone:]
+-[CPTTextStyle debugQuickLookObject]
+-[CPTTextStyle fontSize]
+-[CPTTextStyle setFontSize:]
+-[CPTTextStyle fontName]
+-[CPTTextStyle setFontName:]
+-[CPTTextStyle color]
+-[CPTTextStyle setColor:]
+-[CPTTextStyle textAlignment]
+-[CPTTextStyle setTextAlignment:]
+-[CPTTextStyle lineBreakMode]
+-[CPTTextStyle setLineBreakMode:]
+-[CPTTextStyle .cxx_destruct]
+_OBJC_IVAR_$_CPTTextStyle.fontName
+_OBJC_IVAR_$_CPTTextStyle.fontSize
+_OBJC_IVAR_$_CPTTextStyle.color
+_OBJC_IVAR_$_CPTTextStyle.textAlignment
+_OBJC_IVAR_$_CPTTextStyle.lineBreakMode
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTextStyle.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTTextStyle.h
++[CPTFunctionDataSource dataSourceForPlot:withFunction:]
++[CPTFunctionDataSource dataSourceForPlot:withBlock:]
+-[CPTFunctionDataSource initForPlot:withFunction:]
+-[CPTFunctionDataSource initForPlot:withBlock:]
+-[CPTFunctionDataSource initForPlot:]
+-[CPTFunctionDataSource init]
+-[CPTFunctionDataSource dealloc]
+-[CPTFunctionDataSource setResolution:]
+-[CPTFunctionDataSource setDataRange:]
+-[CPTFunctionDataSource plotBoundsChanged]
+-[CPTFunctionDataSource plotSpaceChanged]
+-[CPTFunctionDataSource observeValueForKeyPath:ofObject:change:context:]
+-[CPTFunctionDataSource numberOfRecordsForPlot:]
+-[CPTFunctionDataSource dataForPlot:recordIndexRange:]
+-[CPTFunctionDataSource dataSourceFunction]
+-[CPTFunctionDataSource dataSourceBlock]
+-[CPTFunctionDataSource dataPlot]
+-[CPTFunctionDataSource setDataPlot:]
+-[CPTFunctionDataSource resolution]
+-[CPTFunctionDataSource dataRange]
+-[CPTFunctionDataSource cachedStep]
+-[CPTFunctionDataSource setCachedStep:]
+-[CPTFunctionDataSource cachedCount]
+-[CPTFunctionDataSource setCachedCount:]
+-[CPTFunctionDataSource dataCount]
+-[CPTFunctionDataSource setDataCount:]
+-[CPTFunctionDataSource cachedPlotRange]
+-[CPTFunctionDataSource setCachedPlotRange:]
+-[CPTFunctionDataSource .cxx_destruct]
+_OBJC_IVAR_$_CPTFunctionDataSource.dataSourceFunction
+_OBJC_IVAR_$_CPTFunctionDataSource.dataSourceBlock
+_OBJC_IVAR_$_CPTFunctionDataSource.dataPlot
+_OBJC_IVAR_$_CPTFunctionDataSource.resolution
+_OBJC_IVAR_$_CPTFunctionDataSource.cachedStep
+_OBJC_IVAR_$_CPTFunctionDataSource.dataCount
+_OBJC_IVAR_$_CPTFunctionDataSource.cachedCount
+_OBJC_IVAR_$_CPTFunctionDataSource.cachedPlotRange
+_OBJC_IVAR_$_CPTFunctionDataSource.dataRange
+_CPTFunctionDataSourceKVOContext
+l_OBJC_PROTOCOL_$_CPTPlotDataSource
+l_OBJC_LABEL_PROTOCOL_$_CPTPlotDataSource
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTFunctionDataSource.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTFunctionDataSource.h
++[NSNumber(CPTExtensions) numberWithCGFloat:]
+-[NSNumber(CPTExtensions) cgFloatValue]
+-[NSNumber(CPTExtensions) initWithCGFloat:]
+-[NSNumber(CPTExtensions) decimalNumber]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/NSNumberExtensions.m
+-[CPTBorderedLayer initWithFrame:]
+-[CPTBorderedLayer initWithLayer:]
+-[CPTBorderedLayer encodeWithCoder:]
+-[CPTBorderedLayer initWithCoder:]
++[CPTBorderedLayer supportsSecureCoding]
+-[CPTBorderedLayer renderAsVectorInContext:]
+-[CPTBorderedLayer renderBorderedLayerAsVectorInContext:]
+-[CPTBorderedLayer sublayerMarginLeft:top:right:bottom:]
+-[CPTBorderedLayer layoutSublayers]
+-[CPTBorderedLayer maskingPath]
+-[CPTBorderedLayer sublayerMaskingPath]
+-[CPTBorderedLayer removeFromSuperlayer]
+-[CPTBorderedLayer updateOpacity]
+-[CPTBorderedLayer setBorderLineStyle:]
+-[CPTBorderedLayer setFill:]
+-[CPTBorderedLayer setCornerRadius:]
+-[CPTBorderedLayer setMasksToBorder:]
+-[CPTBorderedLayer borderLayer]
+-[CPTBorderedLayer setBounds:]
+-[CPTBorderedLayer setPosition:]
+-[CPTBorderedLayer setAnchorPoint:]
+-[CPTBorderedLayer setHidden:]
+-[CPTBorderedLayer setTransform:]
+-[CPTBorderedLayer setShadow:]
+-[CPTBorderedLayer setBackgroundColor:]
+-[CPTBorderedLayer borderLineStyle]
+-[CPTBorderedLayer fill]
+-[CPTBorderedLayer inLayout]
+-[CPTBorderedLayer setInLayout:]
+-[CPTBorderedLayer .cxx_destruct]
+_OBJC_IVAR_$_CPTBorderedLayer.borderLineStyle
+_OBJC_IVAR_$_CPTBorderedLayer.fill
+_OBJC_IVAR_$_CPTBorderedLayer.inLayout
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTBorderedLayer.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTBorderedLayer.h
++[CPTLineStyle lineStyle]
++[CPTLineStyle lineStyleWithStyle:]
+-[CPTLineStyle init]
+-[CPTLineStyle encodeWithCoder:]
+-[CPTLineStyle initWithCoder:]
++[CPTLineStyle supportsSecureCoding]
+-[CPTLineStyle setLineStyleInContext:]
+-[CPTLineStyle strokePathInContext:]
+-[CPTLineStyle strokeRect:inContext:]
+-[CPTLineStyle strokePathWithGradient:inContext:]
+-[CPTLineStyle isOpaque]
+-[CPTLineStyle copyWithZone:]
+-[CPTLineStyle mutableCopyWithZone:]
+-[CPTLineStyle debugQuickLookObject]
+___36-[CPTLineStyle debugQuickLookObject]_block_invoke
+-[CPTLineStyle lineCap]
+-[CPTLineStyle setLineCap:]
+-[CPTLineStyle lineJoin]
+-[CPTLineStyle setLineJoin:]
+-[CPTLineStyle miterLimit]
+-[CPTLineStyle setMiterLimit:]
+-[CPTLineStyle lineWidth]
+-[CPTLineStyle setLineWidth:]
+-[CPTLineStyle dashPattern]
+-[CPTLineStyle setDashPattern:]
+-[CPTLineStyle patternPhase]
+-[CPTLineStyle setPatternPhase:]
+-[CPTLineStyle lineColor]
+-[CPTLineStyle setLineColor:]
+-[CPTLineStyle lineFill]
+-[CPTLineStyle setLineFill:]
+-[CPTLineStyle lineGradient]
+-[CPTLineStyle setLineGradient:]
+-[CPTLineStyle .cxx_destruct]
+_OBJC_IVAR_$_CPTLineStyle.lineCap
+_OBJC_IVAR_$_CPTLineStyle.lineJoin
+_OBJC_IVAR_$_CPTLineStyle.miterLimit
+_OBJC_IVAR_$_CPTLineStyle.lineWidth
+_OBJC_IVAR_$_CPTLineStyle.dashPattern
+_OBJC_IVAR_$_CPTLineStyle.patternPhase
+_OBJC_IVAR_$_CPTLineStyle.lineColor
+_OBJC_IVAR_$_CPTLineStyle.lineFill
+_OBJC_IVAR_$_CPTLineStyle.lineGradient
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLineStyle.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTLineStyle.h
+__36-[CPTLineStyle debugQuickLookObject]_block_invoke
+-[_CPTAnimationCGSizePeriod setStartValueFromObject:propertyGetter:]
+-[_CPTAnimationCGSizePeriod canStartWithValueFromObject:propertyGetter:]
+-[_CPTAnimationCGSizePeriod tweenedValueForProgress:]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTAnimationCGSizePeriod.m
+CPTCurrentSizeValue
++[CPTPieChart defaultPieSliceColorForIndex:]
+-[CPTPieChart initWithFrame:]
+-[CPTPieChart initWithLayer:]
+-[CPTPieChart encodeWithCoder:]
+-[CPTPieChart initWithCoder:]
++[CPTPieChart supportsSecureCoding]
+-[CPTPieChart reloadData]
+-[CPTPieChart reloadDataInIndexRange:]
+-[CPTPieChart reloadPlotDataInIndexRange:]
+-[CPTPieChart insertDataAtIndex:numberOfRecords:]
+-[CPTPieChart deleteDataInIndexRange:]
+-[CPTPieChart updateNormalizedData]
+-[CPTPieChart reloadSliceFills]
+-[CPTPieChart reloadSliceFillsInIndexRange:]
+-[CPTPieChart reloadRadialOffsets]
+-[CPTPieChart reloadRadialOffsetsInIndexRange:]
+-[CPTPieChart renderAsVectorInContext:]
+-[CPTPieChart radiansForPieSliceValue:]
+-[CPTPieChart addSliceToPath:centerPoint:startingAngle:finishingAngle:]
+-[CPTPieChart sliceFillForIndex:]
+-[CPTPieChart drawSwatchForLegend:atIndex:inRect:inContext:]
+-[CPTPieChart pieSliceIndexAtAngle:]
+-[CPTPieChart medianAngleForPieSliceIndex:]
++[CPTPieChart needsDisplayForKey:]
+___34+[CPTPieChart needsDisplayForKey:]_block_invoke
+-[CPTPieChart numberOfFields]
+-[CPTPieChart fieldIdentifiers]
+-[CPTPieChart positionLabelAnnotation:forIndex:]
+-[CPTPieChart numberOfLegendEntries]
+-[CPTPieChart titleForLegendEntryAtIndex:]
+-[CPTPieChart attributedTitleForLegendEntryAtIndex:]
+-[CPTPieChart normalizedPosition:]
+-[CPTPieChart angle:betweenStartAngle:endAngle:]
+-[CPTPieChart pointingDeviceDownEvent:atPoint:]
+-[CPTPieChart pointingDeviceUpEvent:atPoint:]
+-[CPTPieChart dataIndexFromInteractionPoint:]
+-[CPTPieChart sliceWidths]
+-[CPTPieChart setSliceWidths:]
+-[CPTPieChart sliceFills]
+-[CPTPieChart setSliceFills:]
+-[CPTPieChart sliceRadialOffsets]
+-[CPTPieChart setSliceRadialOffsets:]
+-[CPTPieChart setPieRadius:]
+-[CPTPieChart setPieInnerRadius:]
+-[CPTPieChart setStartAngle:]
+-[CPTPieChart setEndAngle:]
+-[CPTPieChart setSliceDirection:]
+-[CPTPieChart setBorderLineStyle:]
+-[CPTPieChart setCenterAnchor:]
+-[CPTPieChart setLabelRotationRelativeToRadius:]
+-[CPTPieChart setLabelRotation:]
+-[CPTPieChart pieRadius]
+-[CPTPieChart pieInnerRadius]
+-[CPTPieChart startAngle]
+-[CPTPieChart endAngle]
+-[CPTPieChart sliceDirection]
+-[CPTPieChart centerAnchor]
+-[CPTPieChart borderLineStyle]
+-[CPTPieChart overlayFill]
+-[CPTPieChart setOverlayFill:]
+-[CPTPieChart labelRotationRelativeToRadius]
+-[CPTPieChart pointingDeviceDownIndex]
+-[CPTPieChart setPointingDeviceDownIndex:]
+-[CPTPieChart .cxx_destruct]
+_colorLookupTable
+_OBJC_IVAR_$_CPTPieChart.pieRadius
+_OBJC_IVAR_$_CPTPieChart.pieInnerRadius
+_OBJC_IVAR_$_CPTPieChart.startAngle
+_OBJC_IVAR_$_CPTPieChart.endAngle
+_OBJC_IVAR_$_CPTPieChart.sliceDirection
+_OBJC_IVAR_$_CPTPieChart.centerAnchor
+_OBJC_IVAR_$_CPTPieChart.borderLineStyle
+_OBJC_IVAR_$_CPTPieChart.overlayFill
+_OBJC_IVAR_$_CPTPieChart.labelRotationRelativeToRadius
+_OBJC_IVAR_$_CPTPieChart.pointingDeviceDownIndex
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPieChart.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPieChart.h
+__34+[CPTPieChart needsDisplayForKey:]_block_invoke
++[CPTColorSpace genericRGBSpace]
+___32+[CPTColorSpace genericRGBSpace]_block_invoke
+-[CPTColorSpace initWithCGColorSpace:]
+-[CPTColorSpace init]
+-[CPTColorSpace dealloc]
+-[CPTColorSpace encodeWithCoder:]
+-[CPTColorSpace initWithCoder:]
++[CPTColorSpace supportsSecureCoding]
+-[CPTColorSpace cgColorSpace]
+_genericRGBSpace.space
+_genericRGBSpace.onceToken
+_OBJC_IVAR_$_CPTColorSpace.cgColorSpace
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTColorSpace.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTColorSpace.h
+__32+[CPTColorSpace genericRGBSpace]_block_invoke
+-[CPTGradient init]
+-[CPTGradient commonInit]
+-[CPTGradient dealloc]
+-[CPTGradient copyWithZone:]
+-[CPTGradient encodeWithCoder:]
+-[CPTGradient initWithCoder:]
++[CPTGradient supportsSecureCoding]
++[CPTGradient gradientWithBeginningColor:endingColor:]
++[CPTGradient gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:]
++[CPTGradient aquaSelectedGradient]
++[CPTGradient aquaNormalGradient]
++[CPTGradient aquaPressedGradient]
++[CPTGradient unifiedSelectedGradient]
++[CPTGradient unifiedNormalGradient]
++[CPTGradient unifiedPressedGradient]
++[CPTGradient unifiedDarkGradient]
++[CPTGradient sourceListSelectedGradient]
++[CPTGradient sourceListUnselectedGradient]
++[CPTGradient rainbowGradient]
++[CPTGradient hydrogenSpectrumGradient]
+_CPTTransformHSV_RGB
+-[CPTGradient gradientWithAlphaComponent:]
+-[CPTGradient gradientWithBlendingMode:]
+-[CPTGradient addColorStop:atPosition:]
+-[CPTGradient removeColorStopAtPosition:]
+-[CPTGradient removeColorStopAtIndex:]
+-[CPTGradient newColorStopAtIndex:]
+-[CPTGradient newColorAtPosition:]
+_CPTLinearEvaluation
+_CPTChromaticEvaluation
+_CPTInverseChromaticEvaluation
+-[CPTGradient drawSwatchInRect:inContext:]
+-[CPTGradient fillRect:inContext:]
+-[CPTGradient fillPathInContext:]
+-[CPTGradient isOpaque]
+-[CPTGradient isEqual:]
+-[CPTGradient hash]
+-[CPTGradient setGradientFunction:]
+-[CPTGradient newAxialGradientInRect:]
+-[CPTGradient newRadialGradientInRect:context:]
+-[CPTGradient setBlendingMode:]
+-[CPTGradient addElement:]
+-[CPTGradient removeElementAtIndex:]
+-[CPTGradient removeElementAtPosition:]
+-[CPTGradient removeAllElements]
+-[CPTGradient elementAtIndex:]
+-[CPTGradient elementCount]
+-[CPTGradient debugQuickLookObject]
+___35-[CPTGradient debugQuickLookObject]_block_invoke
+-[CPTGradient colorspace]
+-[CPTGradient setColorspace:]
+-[CPTGradient blendingMode]
+-[CPTGradient angle]
+-[CPTGradient setAngle:]
+-[CPTGradient gradientType]
+-[CPTGradient setGradientType:]
+-[CPTGradient startAnchor]
+-[CPTGradient setStartAnchor:]
+-[CPTGradient endAnchor]
+-[CPTGradient setEndAnchor:]
+-[CPTGradient elementList]
+-[CPTGradient setElementList:]
+-[CPTGradient gradientFunction]
+-[CPTGradient .cxx_destruct]
+_CPTTransformRGB_HSV
+_OBJC_IVAR_$_CPTGradient.angle
+_OBJC_IVAR_$_CPTGradient.gradientType
+_OBJC_IVAR_$_CPTGradient.startAnchor
+_OBJC_IVAR_$_CPTGradient.endAnchor
+_OBJC_IVAR_$_CPTGradient.gradientFunction
+_OBJC_IVAR_$_CPTGradient.blendingMode
+_setBlendingMode:.input_value_range
+_setBlendingMode:.output_value_ranges
+_OBJC_IVAR_$_CPTGradient.colorspace
+_OBJC_IVAR_$_CPTGradient.elementList
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGradient.m
+CPTTransformRGB_HSV
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTGradient.h
+__35-[CPTGradient debugQuickLookObject]_block_invoke
+__tg_tan
+CPTInverseChromaticEvaluation
+CPTResolveHSV
+CPTChromaticEvaluation
+CPTLinearEvaluation
+CPTTransformHSV_RGB
+__tg_floor
+_cacheValueInitialized
+_cache
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTUtilities.m
+CPTInverseLogModulus
+__inline_signbitd
+CPTLogModulus
+CPTEdgeInsetsEqualToEdgeInsets
+CPTEdgeInsetsMake
+squareOfDistanceBetweenPoints
+CPTStringFromVector
+CPTStringFromRect
+CPTStringFromSize
+CPTStringFromPoint
+CPTAlignBorderedRectToUserSpace
+CPTAlignIntegralRectToUserSpace
+CPTAlignIntegralPointToUserSpace
+CPTAlignRectToUserSpace
+CPTAlignSizeToUserSpace
+CPTAlignPointToUserSpace
+CPTOrthogonalCoordinate
+CPTRGBAColorFromCGColor
+CPTExpandedRange
+NSMakeRange
+CPTDecimalAbs
+CPTDecimalMax
+CPTDecimalMin
+CPTDecimalEquals
+CPTDecimalLessThanOrEqualTo
+CPTDecimalLessThan
+CPTDecimalGreaterThanOrEqualTo
+CPTDecimalGreaterThan
+CPTDecimalDivide
+CPTDecimalMultiply
+CPTDecimalSubtract
+CPTDecimalAdd
+CPTDecimalFromCGFloat
+CPTDecimalFromDouble
+CPTDecimalNaN
+CPTDecimalFromFloat
+CPTDecimalFromUnsignedInteger
+CPTDecimalFromUnsignedInt
+CPTDecimalFromUnsignedLongLong
+CPTDecimalFromUnsignedLong
+CPTDecimalFromUnsignedShort
+CPTDecimalFromUnsignedChar
+CPTDecimalFromInteger
+CPTDecimalFromInt
+CPTDecimalFromLongLong
+CPTDecimalFromLong
+CPTDecimalFromShort
+CPTDecimalFromString
+CPTDecimalFromChar
+CPTDecimalStringValue
+CPTDecimalCGFloatValue
+CPTDecimalDoubleValue
+CPTDecimalFloatValue
+CPTDecimalUnsignedIntegerValue
+CPTDecimalUnsignedIntValue
+CPTDecimalUnsignedLongLongValue
+CPTDecimalUnsignedLongValue
+CPTDecimalUnsignedShortValue
+CPTDecimalUnsignedCharValue
+CPTDecimalIntegerValue
+CPTDecimalIntValue
+CPTDecimalLongLongValue
+CPTDecimalLongValue
+CPTDecimalShortValue
+CPTDecimalCharValue
+-[_CPTXYTheme init]
+-[_CPTXYTheme newGraph]
+-[_CPTXYTheme classForCoder]
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTXYTheme.m
+-[CPTXYGraph initWithFrame:xScaleType:yScaleType:]
+-[CPTXYGraph initWithFrame:]
+-[CPTXYGraph initWithLayer:]
+-[CPTXYGraph encodeWithCoder:]
+-[CPTXYGraph initWithCoder:]
++[CPTXYGraph supportsSecureCoding]
+-[CPTXYGraph newPlotSpace]
+-[CPTXYGraph newAxisSet]
+-[CPTXYGraph xScaleType]
+-[CPTXYGraph setXScaleType:]
+-[CPTXYGraph yScaleType]
+-[CPTXYGraph setYScaleType:]
+_OBJC_IVAR_$_CPTXYGraph.xScaleType
+_OBJC_IVAR_$_CPTXYGraph.yScaleType
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTXYGraph.m
+-[CPTPlotArea initWithFrame:]
+-[CPTPlotArea initWithLayer:]
+-[CPTPlotArea dealloc]
+-[CPTPlotArea encodeWithCoder:]
+-[CPTPlotArea initWithCoder:]
++[CPTPlotArea supportsSecureCoding]
+-[CPTPlotArea renderAsVectorInContext:]
+-[CPTPlotArea layoutSublayers]
+-[CPTPlotArea sublayersExcludedFromAutomaticLayout]
+-[CPTPlotArea updateLayerOrder]
+-[CPTPlotArea indexForLayerType:]
+-[CPTPlotArea updateAxisSetLayersForType:]
+-[CPTPlotArea setAxisSetLayersForType:]
+-[CPTPlotArea sublayerIndexForAxis:layerType:]
+-[CPTPlotArea pointingDeviceDownEvent:atPoint:]
+-[CPTPlotArea pointingDeviceUpEvent:atPoint:]
+-[CPTPlotArea borderLineStyle]
+-[CPTPlotArea setBorderLineStyle:]
+-[CPTPlotArea setFill:]
+-[CPTPlotArea setMinorGridLineGroup:]
+-[CPTPlotArea setMajorGridLineGroup:]
+-[CPTPlotArea setAxisSet:]
+-[CPTPlotArea setPlotGroup:]
+-[CPTPlotArea setAxisLabelGroup:]
+-[CPTPlotArea setAxisTitleGroup:]
+-[CPTPlotArea setTopDownLayerOrder:]
+-[CPTPlotArea setGraph:]
+-[CPTPlotArea setBounds:]
+-[CPTPlotArea minorGridLineGroup]
+-[CPTPlotArea majorGridLineGroup]
+-[CPTPlotArea axisSet]
+-[CPTPlotArea plotGroup]
+-[CPTPlotArea axisLabelGroup]
+-[CPTPlotArea axisTitleGroup]
+-[CPTPlotArea topDownLayerOrder]
+-[CPTPlotArea fill]
+-[CPTPlotArea widthDecimal]
+-[CPTPlotArea setWidthDecimal:]
+-[CPTPlotArea heightDecimal]
+-[CPTPlotArea setHeightDecimal:]
+-[CPTPlotArea bottomUpLayerOrder]
+-[CPTPlotArea setBottomUpLayerOrder:]
+-[CPTPlotArea isUpdatingLayers]
+-[CPTPlotArea setUpdatingLayers:]
+-[CPTPlotArea touchedPoint]
+-[CPTPlotArea setTouchedPoint:]
+-[CPTPlotArea .cxx_destruct]
+_OBJC_IVAR_$_CPTPlotArea.minorGridLineGroup
+_OBJC_IVAR_$_CPTPlotArea.majorGridLineGroup
+_OBJC_IVAR_$_CPTPlotArea.axisSet
+_OBJC_IVAR_$_CPTPlotArea.plotGroup
+_OBJC_IVAR_$_CPTPlotArea.axisLabelGroup
+_OBJC_IVAR_$_CPTPlotArea.axisTitleGroup
+_OBJC_IVAR_$_CPTPlotArea.fill
+_OBJC_IVAR_$_CPTPlotArea.touchedPoint
+_OBJC_IVAR_$_CPTPlotArea.topDownLayerOrder
+_OBJC_IVAR_$_CPTPlotArea.bottomUpLayerOrder
+_OBJC_IVAR_$_CPTPlotArea.widthDecimal
+_OBJC_IVAR_$_CPTPlotArea.heightDecimal
+_OBJC_IVAR_$_CPTPlotArea.updatingLayers
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotArea.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTPlotArea.h
+-[_CPTConstraintsFixed initWithLowerOffset:]
+-[_CPTConstraintsFixed initWithUpperOffset:]
+-[_CPTConstraintsFixed isEqualToConstraint:]
+-[_CPTConstraintsFixed positionForLowerBound:upperBound:]
+-[_CPTConstraintsFixed copyWithZone:]
+-[_CPTConstraintsFixed classForCoder]
+-[_CPTConstraintsFixed encodeWithCoder:]
+-[_CPTConstraintsFixed initWithCoder:]
++[_CPTConstraintsFixed supportsSecureCoding]
+-[_CPTConstraintsFixed offset]
+-[_CPTConstraintsFixed setOffset:]
+-[_CPTConstraintsFixed isFixedToLower]
+-[_CPTConstraintsFixed setIsFixedToLower:]
+_OBJC_IVAR_$__CPTConstraintsFixed.offset
+_OBJC_IVAR_$__CPTConstraintsFixed.isFixedToLower
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/_CPTConstraintsFixed.m
+-[CPTAxis initWithFrame:]
+-[CPTAxis initWithLayer:]
+-[CPTAxis dealloc]
+-[CPTAxis encodeWithCoder:]
+-[CPTAxis initWithCoder:]
++[CPTAxis supportsSecureCoding]
++[CPTAxis needsDisplayForKey:]
+___30+[CPTAxis needsDisplayForKey:]_block_invoke
+-[CPTAxis generateFixedIntervalMajorTickLocations:minorTickLocations:]
+-[CPTAxis autoGenerateMajorTickLocations:minorTickLocations:]
+-[CPTAxis generateEqualMajorTickLocations:minorTickLocations:]
+-[CPTAxis filteredTickLocations:]
+-[CPTAxis filteredMajorTickLocations:]
+-[CPTAxis filteredMinorTickLocations:]
+-[CPTAxis tickOffset]
+-[CPTAxis updateAxisLabelsAtLocations:inRange:useMajorAxisLabels:]
+-[CPTAxis setNeedsRelabel]
+-[CPTAxis relabel]
+-[CPTAxis updateCustomTickLabels]
+-[CPTAxis updateMajorTickLabelOffsets]
+-[CPTAxis updateMinorTickLabelOffsets]
+-[CPTAxis updateMajorTickLabels]
+-[CPTAxis updateMinorTickLabels]
+-[CPTAxis defaultTitleLocation]
+-[CPTAxis updateAxisTitle]
+-[CPTAxis layoutSublayers]
+-[CPTAxis addBackgroundLimitBand:]
+-[CPTAxis removeBackgroundLimitBand:]
+-[CPTAxis removeAllBackgroundLimitBands]
+-[CPTAxis pointingDeviceDownEvent:atPoint:]
+-[CPTAxis pointingDeviceUpEvent:atPoint:]
+-[CPTAxis setAxisLabels:]
+-[CPTAxis setMinorTickAxisLabels:]
+-[CPTAxis setLabelTextStyle:]
+-[CPTAxis setMinorTickLabelTextStyle:]
+-[CPTAxis setAxisTitle:]
+-[CPTAxis axisTitle]
+-[CPTAxis setTitleTextStyle:]
+-[CPTAxis setTitleOffset:]
+-[CPTAxis setTitleRotation:]
+-[CPTAxis setTitleDirection:]
+-[CPTAxis setTitle:]
+-[CPTAxis setAttributedTitle:]
+-[CPTAxis setTitleLocation:]
+-[CPTAxis titleLocation]
+-[CPTAxis setLabelExclusionRanges:]
+-[CPTAxis setNeedsRelabel:]
+-[CPTAxis setMajorTickLocations:]
+-[CPTAxis setMinorTickLocations:]
+-[CPTAxis setMajorTickLength:]
+-[CPTAxis setMinorTickLength:]
+-[CPTAxis setLabelOffset:]
+-[CPTAxis setMinorTickLabelOffset:]
+-[CPTAxis setLabelRotation:]
+-[CPTAxis setMinorTickLabelRotation:]
+-[CPTAxis setLabelAlignment:]
+-[CPTAxis setMinorTickLabelAlignment:]
+-[CPTAxis setLabelShadow:]
+-[CPTAxis setMinorTickLabelShadow:]
+-[CPTAxis setPlotSpace:]
+-[CPTAxis setCoordinate:]
+-[CPTAxis setAxisLineStyle:]
+-[CPTAxis setMajorTickLineStyle:]
+-[CPTAxis setMinorTickLineStyle:]
+-[CPTAxis setMajorGridLineStyle:]
+-[CPTAxis setMinorGridLineStyle:]
+-[CPTAxis setAxisLineCapMin:]
+-[CPTAxis setAxisLineCapMax:]
+-[CPTAxis setLabelingOrigin:]
+-[CPTAxis setMajorIntervalLength:]
+-[CPTAxis setMinorTicksPerInterval:]
+-[CPTAxis setLabelingPolicy:]
+-[CPTAxis setPreferredNumberOfMajorTicks:]
+-[CPTAxis setLabelFormatter:]
+-[CPTAxis setMinorTickLabelFormatter:]
+-[CPTAxis setTickDirection:]
+-[CPTAxis setTickLabelDirection:]
+-[CPTAxis setMinorTickLabelDirection:]
+-[CPTAxis setGridLinesRange:]
+-[CPTAxis setPlotArea:]
+-[CPTAxis setVisibleRange:]
+-[CPTAxis setVisibleAxisRange:]
+-[CPTAxis setSeparateLayers:]
+-[CPTAxis setMinorGridLines:]
+-[CPTAxis setMajorGridLines:]
+-[CPTAxis setAlternatingBandFills:]
+-[CPTAxis setAlternatingBandAnchor:]
+-[CPTAxis backgroundLimitBands]
+-[CPTAxis axisSet]
+-[CPTAxis setHidden:]
+-[CPTAxis axisLineStyle]
+-[CPTAxis coordinate]
+-[CPTAxis labelingOrigin]
+-[CPTAxis tickDirection]
+-[CPTAxis visibleRange]
+-[CPTAxis visibleAxisRange]
+-[CPTAxis axisLineCapMin]
+-[CPTAxis axisLineCapMax]
+-[CPTAxis titleTextStyle]
+-[CPTAxis titleOffset]
+-[CPTAxis title]
+-[CPTAxis attributedTitle]
+-[CPTAxis titleRotation]
+-[CPTAxis titleDirection]
+-[CPTAxis plotSpace]
+-[CPTAxis labelingPolicy]
+-[CPTAxis labelOffset]
+-[CPTAxis minorTickLabelOffset]
+-[CPTAxis labelRotation]
+-[CPTAxis minorTickLabelRotation]
+-[CPTAxis labelAlignment]
+-[CPTAxis minorTickLabelAlignment]
+-[CPTAxis labelTextStyle]
+-[CPTAxis minorTickLabelTextStyle]
+-[CPTAxis tickLabelDirection]
+-[CPTAxis minorTickLabelDirection]
+-[CPTAxis labelFormatter]
+-[CPTAxis minorTickLabelFormatter]
+-[CPTAxis labelFormatterChanged]
+-[CPTAxis setLabelFormatterChanged:]
+-[CPTAxis minorLabelFormatterChanged]
+-[CPTAxis setMinorLabelFormatterChanged:]
+-[CPTAxis axisLabels]
+-[CPTAxis minorTickAxisLabels]
+-[CPTAxis needsRelabel]
+-[CPTAxis labelExclusionRanges]
+-[CPTAxis labelShadow]
+-[CPTAxis minorTickLabelShadow]
+-[CPTAxis majorIntervalLength]
+-[CPTAxis majorTickLineStyle]
+-[CPTAxis majorTickLength]
+-[CPTAxis majorTickLocations]
+-[CPTAxis preferredNumberOfMajorTicks]
+-[CPTAxis minorTicksPerInterval]
+-[CPTAxis minorTickLineStyle]
+-[CPTAxis minorTickLength]
+-[CPTAxis minorTickLocations]
+-[CPTAxis majorGridLineStyle]
+-[CPTAxis minorGridLineStyle]
+-[CPTAxis gridLinesRange]
+-[CPTAxis alternatingBandFills]
+-[CPTAxis alternatingBandAnchor]
+-[CPTAxis mutableBackgroundLimitBands]
+-[CPTAxis setMutableBackgroundLimitBands:]
+-[CPTAxis separateLayers]
+-[CPTAxis plotArea]
+-[CPTAxis minorGridLines]
+-[CPTAxis majorGridLines]
+-[CPTAxis pointingDeviceDownLabel]
+-[CPTAxis setPointingDeviceDownLabel:]
+-[CPTAxis pointingDeviceDownTickLabel]
+-[CPTAxis setPointingDeviceDownTickLabel:]
+-[CPTAxis inTitleUpdate]
+-[CPTAxis setInTitleUpdate:]
+-[CPTAxis labelsUpdated]
+-[CPTAxis setLabelsUpdated:]
+-[CPTAxis .cxx_destruct]
+-[CPTAxis(AbstractMethods) viewPointForCoordinateValue:]
+-[CPTAxis(AbstractMethods) drawGridLinesInContext:isMajor:]
+-[CPTAxis(AbstractMethods) drawBackgroundBandsInContext:]
+-[CPTAxis(AbstractMethods) drawBackgroundLimitsInContext:]
+_OBJC_IVAR_$_CPTAxis.plotSpace
+_OBJC_IVAR_$_CPTAxis.majorTickLocations
+_OBJC_IVAR_$_CPTAxis.minorTickLocations
+_OBJC_IVAR_$_CPTAxis.preferredNumberOfMajorTicks
+_OBJC_IVAR_$_CPTAxis.minorTickLength
+_OBJC_IVAR_$_CPTAxis.majorTickLength
+_OBJC_IVAR_$_CPTAxis.labelOffset
+_OBJC_IVAR_$_CPTAxis.minorTickLabelOffset
+_OBJC_IVAR_$_CPTAxis.labelRotation
+_OBJC_IVAR_$_CPTAxis.minorTickLabelRotation
+_OBJC_IVAR_$_CPTAxis.labelAlignment
+_OBJC_IVAR_$_CPTAxis.minorTickLabelAlignment
+_OBJC_IVAR_$_CPTAxis.title
+_OBJC_IVAR_$_CPTAxis.attributedTitle
+_OBJC_IVAR_$_CPTAxis.titleOffset
+_OBJC_IVAR_$_CPTAxis.axisLineStyle
+_OBJC_IVAR_$_CPTAxis.majorTickLineStyle
+_OBJC_IVAR_$_CPTAxis.minorTickLineStyle
+_OBJC_IVAR_$_CPTAxis.tickLabelDirection
+_OBJC_IVAR_$_CPTAxis.minorTickLabelDirection
+_OBJC_IVAR_$_CPTAxis.majorGridLineStyle
+_OBJC_IVAR_$_CPTAxis.minorGridLineStyle
+_OBJC_IVAR_$_CPTAxis.axisLineCapMin
+_OBJC_IVAR_$_CPTAxis.axisLineCapMax
+_OBJC_IVAR_$_CPTAxis.labelingOrigin
+_OBJC_IVAR_$_CPTAxis.majorIntervalLength
+_OBJC_IVAR_$_CPTAxis.minorTicksPerInterval
+_OBJC_IVAR_$_CPTAxis.coordinate
+_OBJC_IVAR_$_CPTAxis.labelingPolicy
+_OBJC_IVAR_$_CPTAxis.labelTextStyle
+_OBJC_IVAR_$_CPTAxis.labelFormatter
+_OBJC_IVAR_$_CPTAxis.minorTickLabelTextStyle
+_OBJC_IVAR_$_CPTAxis.minorTickLabelFormatter
+_OBJC_IVAR_$_CPTAxis.labelFormatterChanged
+_OBJC_IVAR_$_CPTAxis.minorLabelFormatterChanged
+_OBJC_IVAR_$_CPTAxis.axisLabels
+_OBJC_IVAR_$_CPTAxis.minorTickAxisLabels
+_OBJC_IVAR_$_CPTAxis.tickDirection
+_OBJC_IVAR_$_CPTAxis.axisTitle
+_OBJC_IVAR_$_CPTAxis.titleTextStyle
+_OBJC_IVAR_$_CPTAxis.titleRotation
+_OBJC_IVAR_$_CPTAxis.titleLocation
+_OBJC_IVAR_$_CPTAxis.needsRelabel
+_OBJC_IVAR_$_CPTAxis.labelExclusionRanges
+_OBJC_IVAR_$_CPTAxis.plotArea
+_OBJC_IVAR_$_CPTAxis.separateLayers
+_OBJC_IVAR_$_CPTAxis.labelShadow
+_OBJC_IVAR_$_CPTAxis.minorTickLabelShadow
+_OBJC_IVAR_$_CPTAxis.visibleRange
+_OBJC_IVAR_$_CPTAxis.visibleAxisRange
+_OBJC_IVAR_$_CPTAxis.gridLinesRange
+_OBJC_IVAR_$_CPTAxis.alternatingBandFills
+_OBJC_IVAR_$_CPTAxis.alternatingBandAnchor
+_OBJC_IVAR_$_CPTAxis.mutableBackgroundLimitBands
+_OBJC_IVAR_$_CPTAxis.minorGridLines
+_OBJC_IVAR_$_CPTAxis.majorGridLines
+_OBJC_IVAR_$_CPTAxis.pointingDeviceDownLabel
+_OBJC_IVAR_$_CPTAxis.pointingDeviceDownTickLabel
+_OBJC_IVAR_$_CPTAxis.inTitleUpdate
+_OBJC_IVAR_$_CPTAxis.labelsUpdated
+_OBJC_IVAR_$_CPTAxis.titleDirection
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxis.m
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTAxis.h
+CPTNiceNum
+CPTNiceLength
+__30+[CPTAxis needsDisplayForKey:]_block_invoke
+/Users/dharay.mistry/Documents/xcode workspace/PieChart/Carthage/Checkouts/core-plot/framework/Source/CPTMutableTextStyle.m
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 8.1.0 (clang-802.0.36)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~320/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=278.4 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

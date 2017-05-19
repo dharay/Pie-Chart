@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Products/Debug-iphonesimulator/PieChart.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Intermediates/PieChart.build/Debug-iphonesimulator/PieChart.build/unextended-module.modulemap',
+    }]
+  }]
+}

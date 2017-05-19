@@ -1,0 +1,10 @@
+framework module PieChart {
+  umbrella header "PieChart.h"
+
+  export *
+  module * { export * }
+}
+
+module PieChart.Swift {
+    header "PieChart-Swift.h"
+}

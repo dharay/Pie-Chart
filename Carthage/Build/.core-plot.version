@@ -1,0 +1,9 @@
+{
+  "commitish" : "release_2.2",
+  "iOS" : [
+    {
+      "hash" : "e5360eb7b2643efadbc5b1d631120bed17c7a20c4b6adfaaced501bada5778d7",
+      "name" : "CorePlot"
+    }
+  ]
+}

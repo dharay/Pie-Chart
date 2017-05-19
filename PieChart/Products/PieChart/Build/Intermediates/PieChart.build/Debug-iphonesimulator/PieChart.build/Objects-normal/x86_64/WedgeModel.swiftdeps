@@ -1,0 +1,193 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Wedge"
+provides-nominal:
+- "V8PieChart5Wedge"
+provides-member:
+- ["V8PieChart5Wedge", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Int"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- "Wedge"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "white"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "white"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "white"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "white"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "white"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "white"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "white"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "white"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "white"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "white"]
+- ["CSo8NSString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIColor", "white"]
+- ["V8PieChart5Wedge", "Int"]
+- ["V8PieChart5Wedge", "String"]
+- ["V8PieChart5Wedge", "UIColor"]
+- ["V8PieChart5Wedge", "backgroundColor"]
+- ["V8PieChart5Wedge", "init"]
+- ["V8PieChart5Wedge", "title"]
+- ["V8PieChart5Wedge", "weight"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "white"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "V8PieChart5Wedge"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/PieChart.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/Products/PieChart/Build/Intermediates/PieChart.build/Debug-iphonesimulator/PieChart.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTXYPlotSpace.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTXYGraph.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTXYAxisSet.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTXYAxis.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTUtilities.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTradingRangePlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTimeFormatter.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTheme.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTextLayer.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTScatterPlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTRangePlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotSymbol.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotSpaceAnnotation.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotAreaFrame.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotArea.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlatformSpecificFunctions.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlatformSpecificCategories.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPieChart.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPathExtensions.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTNumericData+TypeConversion.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutableTextStyle.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTShadow.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutableShadow.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutablePlotRange.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTNumericData.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutableNumericData.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutableNumericData+TypeConversion.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTMutableLineStyle.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLineCap.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLegendEntry.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLegend.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLayerAnnotation.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTImage.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTGraphHostingView.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotSpace.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTGraph.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTGradient.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTFunctionDataSource.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTExceptions.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTConstraints.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTColorSpace.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTColor.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTCalendarFormatter.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTBorderedLayer.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTNumericDataType.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLineStyle.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTBarPlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAxisTitle.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAxisSet.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTextStylePlatformSpecific.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTTextStyle.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlotRange.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLimitBand.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTFill.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAxisLabel.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAxis.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTPlatformSpecificDefines.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTResponder.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTLayer.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAnnotationHostLayer.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAnnotation.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAnimationPeriod.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTDefinitions.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAnimationOperation.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CPTAnimation.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Headers/CorePlot.h"
+- "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/Carthage/Build/iOS/CorePlot.framework/Modules/module.modulemap"
+interface-hash: "a8c489cdbd359712f639ac7a7c0675c1"

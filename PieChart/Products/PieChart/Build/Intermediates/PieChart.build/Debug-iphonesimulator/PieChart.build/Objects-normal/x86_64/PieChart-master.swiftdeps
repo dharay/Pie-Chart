@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "f9e32356925f829e14bd1b30346400ac"
+build_time: [548420220, 481586000]
+inputs:
+  "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/WedgeModel.swift": [548417449, 0]
+  "/Users/dharay.mistry/Documents/PieChart/Pie-Chart/PieChart/PieChart.swift": [548419856, 0]
